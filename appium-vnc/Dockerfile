@@ -17,6 +17,7 @@ RUN apt-get update -qqy \
   && apt-get -qqy install \
     xvfb \
     x11vnc \
+    locales \
   && rm -rf /var/lib/apt/lists/* \
   && mkdir -p ~/.vnc \
   && x11vnc -storepasswd secret ~/.vnc/passwd
