@@ -6,26 +6,26 @@ version: '2'
 services:
   # Selenium hub
     selenium_hub:
-      image: hub.c.163.com/workhardsmile/citest:selenium-hub
+      image: hub.c.163.com/workhardsmile/selenium:selenium-hub
       ports:
         - 4444:4444
       labels:
         aliyun.routing.port_4444: http://selenium/
     firefox:
-      image: hub.c.163.com/workhardsmile/citest:selenium-node-firefox
+      image: hub.c.163.com/workhardsmile/selenium:node-firefox
       links:
         - selenium_hub
       labels:
         aliyun.scale: "3"
     chrome:
-      image: hub.c.163.com/workhardsmile/citest:selenium-node-chrome
+      image: hub.c.163.com/workhardsmile/selenium:node-chrome
       links:
         - selenium_hub
       labels:
         aliyun.scale: "3"
     # Appium Docker Android
     appium_devices:
-      image: hub.c.163.com/workhardsmile/citest:appium-grid
+      image: hub.c.163.com/workhardsmile/selenium:appium-grid
       ports:
         - 4723:4723
       depends_on:
