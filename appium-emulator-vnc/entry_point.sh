@@ -28,8 +28,7 @@ fluxbox -display $DISPLAY &
 x11vnc -forever -usepw -shared -rfbport 5900 -display $DISPLAY &
 
 # Starts Android emulator
-emulator -avd android-$AVD_VERSION -no-boot-anim &
-adb wait-for-device
+emulator -avd android-$AVD_VERSION -no-boot-anim & adb wait-for-device
 
 trap shutdown SIGTERM SIGINT
 wait $NODE_PID

@@ -13,7 +13,7 @@ How to use this image
 #### Launch the image
 
 ``` bash
-$ docker run -d -P --name appium-emulator-debug rgonalo/appium-emulator-debug
+$ docker run -d -P --name appium-emulator-vnc 10.4.237.142:5001/appium:emulator-vnc
 ```
 
 #### Get VNC port and Appium server ip and port
@@ -21,7 +21,7 @@ $ docker run -d -P --name appium-emulator-debug rgonalo/appium-emulator-debug
 You can acquire the ports that the Appium and VNC servers are exposed to by running:
 
 ``` bash
-$ docker port appium-emulator-debug
+$ docker port appium-emulator-vnc
 #=> 4723/tcp -> 0.0.0.0:49412
     5900/tcp -> 0.0.0.0:49413
 ```
@@ -41,7 +41,7 @@ with Android 4.4 (API 19).
 You can tail Appium server logs with the following docker command:
 
 ``` bash
-$ docker logs --follow appium-emulator-debug
+$ docker logs --follow appium-emulator-vnc
 ```
 
 Also, you can connect with a VNC Client to *192.168.99.100:49413* to view the Ubuntu desktop and the Android emulator.
@@ -50,6 +50,6 @@ The default VNC password is __secret__.
 To install an APK, copy the APK file into the container and then install it with adb from container:
 
 ``` bash
-$ docker cp APK_FILE appium-emulator-debug:/
-$ docker exec -it appium-emulator-debug adb install APK_FILE
+$ docker cp APK_FILE appium-emulator-vnc:/
+$ docker exec -it appium-emulator-vncadb install APK_FILE
 ```
