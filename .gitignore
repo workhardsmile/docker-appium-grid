@@ -10,6 +10,17 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
+/ruby-slave/docker/testplus/log/*
+/ruby-slave/docker/testplus/projects/*
+/rtest-framework/output/*
+/pytest-framework/output/*
+/log/*
+/Gemfile.lock
+/.project
+/*.pyc
+/tmp/*
+/.*
+*.lock
 
 # Used by dotenv library to load environment variables.
 # .env
