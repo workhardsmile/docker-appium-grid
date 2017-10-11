@@ -1,0 +1,55 @@
+# Logfile created on 2017-10-11 17:31:33 +0000 by logger.rb/56438
+[2017-10-11 17:31:35 +0000] INFO: Execute - Navigate to URL http://10.4.237.142 - success.
+[2017-10-11 17:31:37 +0000] INFO: TestlinkLogin::LoginAccountInput.wait_element_clickable passed - loop count: 0
+[2017-10-11 17:31:37 +0000] INFO: Execute - clear text of TestlinkLogin::LoginAccountInput - success.
+[2017-10-11 17:31:37 +0000] INFO: Execute - input text to TestlinkLogin::LoginAccountInput - success. [] is entered
+[2017-10-11 17:31:37 +0000] INFO: Execute - clear text of TestlinkLogin::PasswordInput - success.
+[2017-10-11 17:31:37 +0000] INFO: Execute - input text to TestlinkLogin::PasswordInput - success. [] is entered
+[2017-10-11 17:31:37 +0000] INFO: Execute - click TestlinkLogin::LoginButton - success.
+[2017-10-11 17:31:40 +0000] INFO: Assert  - check TestlinkLogin::LoginAccountInput should exist - success.
+[2017-10-11 17:31:41 +0000] INFO: Execute - Navigate to URL http://10.4.237.142 - success.
+[2017-10-11 17:31:43 +0000] INFO: TestlinkLogin::LoginAccountInput.wait_element_clickable passed - loop count: 0
+[2017-10-11 17:31:43 +0000] INFO: Execute - clear text of TestlinkLogin::LoginAccountInput - success.
+[2017-10-11 17:31:43 +0000] INFO: Execute - input text to TestlinkLogin::LoginAccountInput - success. [testlink] is entered
+[2017-10-11 17:31:43 +0000] INFO: Execute - clear text of TestlinkLogin::PasswordInput - success.
+[2017-10-11 17:31:43 +0000] INFO: Execute - input text to TestlinkLogin::PasswordInput - success. [] is entered
+[2017-10-11 17:31:43 +0000] INFO: Execute - click TestlinkLogin::LoginButton - success.
+[2017-10-11 17:31:46 +0000] INFO: Assert  - check TestlinkLogin::LoginAccountInput should exist - success.
+[2017-10-11 17:31:47 +0000] INFO: Execute - Navigate to URL http://10.4.237.142 - success.
+[2017-10-11 17:31:49 +0000] INFO: TestlinkLogin::LoginAccountInput.wait_element_clickable passed - loop count: 0
+[2017-10-11 17:31:49 +0000] INFO: Execute - clear text of TestlinkLogin::LoginAccountInput - success.
+[2017-10-11 17:31:49 +0000] INFO: Execute - input text to TestlinkLogin::LoginAccountInput - success. [] is entered
+[2017-10-11 17:31:49 +0000] INFO: Execute - clear text of TestlinkLogin::PasswordInput - success.
+[2017-10-11 17:31:49 +0000] INFO: Execute - input text to TestlinkLogin::PasswordInput - success. [123456] is entered
+[2017-10-11 17:31:49 +0000] INFO: Execute - click TestlinkLogin::LoginButton - success.
+[2017-10-11 17:31:52 +0000] INFO: Assert  - check TestlinkLogin::LoginAccountInput should exist - success.
+[2017-10-11 17:31:53 +0000] INFO: Execute - Navigate to URL http://10.4.237.142 - success.
+[2017-10-11 17:31:55 +0000] INFO: TestlinkLogin::LoginAccountInput.wait_element_clickable passed - loop count: 0
+[2017-10-11 17:31:55 +0000] INFO: Execute - clear text of TestlinkLogin::LoginAccountInput - success.
+[2017-10-11 17:31:55 +0000] INFO: Execute - input text to TestlinkLogin::LoginAccountInput - success. [testlink] is entered
+[2017-10-11 17:31:56 +0000] INFO: Execute - clear text of TestlinkLogin::PasswordInput - success.
+[2017-10-11 17:31:56 +0000] INFO: Execute - input text to TestlinkLogin::PasswordInput - success. [111111] is entered
+[2017-10-11 17:31:56 +0000] INFO: Execute - click TestlinkLogin::LoginButton - success.
+[2017-10-11 17:31:59 +0000] INFO: Assert  - check TestlinkLogin::LoginAccountInput should exist - success.
+[2017-10-11 17:32:00 +0000] INFO: Execute - Navigate to URL http://10.4.237.142 - success.
+[2017-10-11 17:32:02 +0000] INFO: TestlinkLogin::LoginAccountInput.wait_element_clickable passed - loop count: 0
+[2017-10-11 17:32:02 +0000] INFO: Execute - clear text of TestlinkLogin::LoginAccountInput - success.
+[2017-10-11 17:32:02 +0000] INFO: Execute - input text to TestlinkLogin::LoginAccountInput - success. [nouser] is entered
+[2017-10-11 17:32:02 +0000] INFO: Execute - clear text of TestlinkLogin::PasswordInput - success.
+[2017-10-11 17:32:02 +0000] INFO: Execute - input text to TestlinkLogin::PasswordInput - success. [111111] is entered
+[2017-10-11 17:32:02 +0000] INFO: Execute - click TestlinkLogin::LoginButton - success.
+[2017-10-11 17:32:06 +0000] INFO: Assert  - check TestlinkLogin::LoginAccountInput should exist - success.
+[2017-10-11 17:32:07 +0000] INFO: Execute - Navigate to URL http://10.4.237.142 - success.
+[2017-10-11 17:32:09 +0000] INFO: TestlinkLogin::LoginAccountInput.wait_element_clickable passed - loop count: 0
+[2017-10-11 17:32:09 +0000] INFO: Execute - clear text of TestlinkLogin::LoginAccountInput - success.
+[2017-10-11 17:32:09 +0000] INFO: Execute - input text to TestlinkLogin::LoginAccountInput - success. [testlink] is entered
+[2017-10-11 17:32:09 +0000] INFO: Execute - clear text of TestlinkLogin::PasswordInput - success.
+[2017-10-11 17:32:09 +0000] INFO: Execute - input text to TestlinkLogin::PasswordInput - success. [123456] is entered
+[2017-10-11 17:32:09 +0000] INFO: Execute - click TestlinkLogin::LoginButton - success.
+[2017-10-11 17:32:17 +0000] INFO: Execute - wait TestlinkHome::AccountNameText to present - success. it shows in 30 seconds
+[2017-10-11 17:32:17 +0000] INFO: Execute - get text of TestlinkHome::AccountNameText - success. get text [testlink [guest]]
+[2017-10-11 17:32:17 +0000] INFO: Assert  - TestlinkHome::AccountNameText should include text testlink - success.
+[2017-10-11 17:32:17 +0000] INFO: ###############[DEMOWEB001 PASSED: total 6 cases]###############
+[2017-10-11 17:32:17 +0000] INFO: Post case result to TEST-PLUS...
+[2017-10-11 17:32:18 +0000] INFO: ###############[clear and restore PASSED: total 0 cases]###############
+[2017-10-11 17:32:18 +0000] INFO: update script status: {:protocol=>{:what=>"Script", :round_id=>"48938", :data=>{:script_name=>"web_testlink_login", :state=>"done", "service"=>[{"name"=>"WebServiceFrontend", "version"=>"v1.0.16"}, {"name"=>"WebServiceBackend", "version"=>"v1.0.19"}]}}}

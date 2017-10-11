@@ -1,0 +1,64 @@
+:browser_iphone:
+  :user_agent: "Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53"
+  :portrait:
+    :width: 320
+    :height: 568
+  :landscape:
+    :width: 568
+    :height: 320
+:browser_ipad:
+  :user_agent: "Mozilla/5.0 (iPad; CPU OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53"
+  :portrait:
+    :width: 768
+    :height: 1024
+  :landscape:
+    :width: 1024
+    :height: 768
+:browser_android_phone:
+  :user_agent: "Mozilla/5.0 (Linux; U; Android 4.0.1; en-us; sdk Build/ICS_MR0) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
+  :portrait:
+    :width: 320
+    :height: 640
+  :landscape:
+    :width: 640
+    :height: 320
+:browser_android_tablet:
+  :user_agent: "Mozilla/5.0 (Linux; U; Android 3.0; en-us; GT-P7100 Build/HRI83) AppleWebkit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13"
+  :portrait:
+    :width: 768
+    :height: 946
+  :landscape:
+    :width: 1024
+    :height: 690
+:appnium_iphone:
+  :app_name: 'Safari'
+  :app_package: ''
+  :device_name: 'iOS Simulator'
+  :platform_version: '6.1'
+  :platform_name: 'iOS'
+  :remote_url: 'http://0.0.0.0:4723/wd/hub/'   
+  :new_command_timeout: '1200'
+:appnium_ipad:
+  :app_name: 'Safari'
+  :app_package: ''
+  :device_name: 'iOS Simulator'
+  :platform_version: '6.1'
+  :platform_name: 'iOS'
+  :remote_url: 'http://0.0.0.0:4723/wd/hub/'   
+  :new_command_timeout: '1200'  
+:appnium_android_phone:
+  :app_name: 'Chrome'
+  :app_package: 'com.android.chrome'
+  :device_name: '192.168.56.101:5555'
+  :platform_version: '4.3'
+  :platform_name: 'Android'
+  :remote_url: 'http://0.0.0.0:4723/wd/hub/'    
+  :new_command_timeout: '1200'
+:appnium_android_tablet:
+  :app_name: 'Chrome'
+  :app_package: 'com.android.chrome'
+  :device_name: '192.168.56.101:5555'
+  :platform_version: '4.3'
+  :platform_name: 'Android'
+  :remote_url: 'http://0.0.0.0:4723/wd/hub/'    
+  :new_command_timeout: '1200'  

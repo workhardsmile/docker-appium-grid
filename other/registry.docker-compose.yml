@@ -1,0 +1,9 @@
+# docker-registry/docker-compose.yml
+registry:
+  image: hub.c.163.com/library/registry:latest
+  container_name: registry
+  restart: always
+  ports:
+    - 5001:5000
+  volumes:
+    - ./my_registry:/var/lib/registry

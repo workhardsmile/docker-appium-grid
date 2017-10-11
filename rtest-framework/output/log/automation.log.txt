@@ -1,0 +1,4276 @@
+# Logfile created on 2017-10-08 19:00:28 +0800 by logger.rb/56438
+[2017-10-08 19:03:03] INFO: ######################[ERROR MESSAGE]######################
+the 1th case from CASEID001_testlink login sample testing:
+test_data: {"request":{"username":"","password":""}}
+expected_data: {"successs":false,"message":"用户名或密码均为空"}
+
+uninitialized constant TestflowWeb
+Did you mean?  TestlinkHome
+6----->      $parameters[ test_data ].each do |test_data|
+7----->        $step_array = $step_array &lt;&lt; test_data
+8----->        TestflowWeb::TestlinkSample.login_to_home(test_data[ request ][ username ],test_data[ request ][ password ])
+9----->        if  #{test_data[ expected ][ successs ]}  ==  true 
+10----->          TestlinkHome::AccountNameText.new.wait_element_present
+./sample/testlink_login_sample/action1_testlink_login.rb:8:in `block (2 levels) in action_1'
+./sample/testlink_login_sample/action1_testlink_login.rb:6:in `each'
+./sample/testlink_login_sample/action1_testlink_login.rb:6:in `block in action_1'
+[2017-10-08 19:03:03] INFO: ###############[CASEID001 FAILED: the 1th case]###############
+[2017-10-08 19:03:03] INFO: ###############[clear and restore PASSED: total 0 cases]###############
+[2017-10-08 19:03:03] INFO: update script status: {:protocol=>{:what=>"Script", :round_id=>"1234", :data=>{:script_name=>"testlink_login_sample", :state=>"done", "service"=>[{"name"=>"WebServiceFrontend", "version"=>"v1.0.16"}, {"name"=>"WebServiceBackend", "version"=>"v1.0.19"}, {"name"=>"FaceServer", "version"=>"1.0.4"}, {"name"=>"CypressSystem", "version"=>"1.4.1"}]}}}
+[2017-10-08 19:03:52] INFO: Execute - Navigate to URL http://testlink.cdsankuai.com - success.
+[2017-10-08 19:03:52] INFO: ######################[ERROR MESSAGE]######################
+the 1th case from CASEID001_testlink login sample testing:
+test_data: {"request":{"username":"","password":""}}
+expected_data: {"successs":false,"message":"用户名或密码均为空"}
+
+undefined method `get' for nil:NilClass
+Did you mean?  gets
+               gem
+263----->        begin
+264----->          Common.logger_step  Execute - Navigate to URL #{url} - success. 
+265----->          $driver.get url
+266----->        rescue Timeout::Error
+267----->          Common.logger_info  Execute - Navigate to URL #{url} - warnning. get Timeout::Error  
+/Users/frankwu/eclipse-workspace/erp-mcashier-autoci/rtest-framework/common/utilities/web_driver.rb:265:in `navigate_to_url'
+/Users/frankwu/eclipse-workspace/erp-mcashier-autoci/rtest-framework/testflow/web/testlink_sample.rb:6:in `login_to_home'
+./sample/testlink_login_sample/action1_testlink_login.rb:8:in `block (2 levels) in action_1'
+./sample/testlink_login_sample/action1_testlink_login.rb:6:in `each'
+./sample/testlink_login_sample/action1_testlink_login.rb:6:in `block in action_1'
+[2017-10-08 19:03:52] INFO: ###############[CASEID001 FAILED: the 1th case]###############
+[2017-10-08 19:03:52] INFO: ###############[clear and restore PASSED: total 0 cases]###############
+[2017-10-08 19:03:52] INFO: update script status: {:protocol=>{:what=>"Script", :round_id=>"1234", :data=>{:script_name=>"testlink_login_sample", :state=>"done", "service"=>[{"name"=>"WebServiceFrontend", "version"=>"v1.0.16"}, {"name"=>"WebServiceBackend", "version"=>"v1.0.19"}, {"name"=>"FaceServer", "version"=>"1.0.4"}, {"name"=>"CypressSystem", "version"=>"1.4.1"}]}}}
+[2017-10-08 19:09:35] INFO: Execute - Navigate to URL http://testlink.cdsankuai.com - success.
+[2017-10-08 19:09:35] INFO: ######################[ERROR MESSAGE]######################
+the 1th case from CASEID001_testlink login sample testing:
+test_data: {"request":{"username":"","password":""}}
+expected_data: {"successs":false,"message":"用户名或密码均为空"}
+
+undefined method `get' for nil:NilClass
+Did you mean?  gets
+               gem
+265----->        begin
+266----->          Common.logger_step  Execute - Navigate to URL #{url} - success. 
+267----->          $driver.get url
+268----->        rescue Timeout::Error
+269----->          Common.logger_info  Execute - Navigate to URL #{url} - warnning. get Timeout::Error  
+/Users/frankwu/eclipse-workspace/erp-mcashier-autoci/rtest-framework/common/utilities/web_driver.rb:267:in `navigate_to_url'
+/Users/frankwu/eclipse-workspace/erp-mcashier-autoci/rtest-framework/testflow/web/testlink_sample.rb:6:in `login_to_home'
+./sample/testlink_login_sample/action1_testlink_login.rb:8:in `block (2 levels) in action_1'
+./sample/testlink_login_sample/action1_testlink_login.rb:6:in `each'
+./sample/testlink_login_sample/action1_testlink_login.rb:6:in `block in action_1'
+[2017-10-08 19:09:35] INFO: ###############[CASEID001 FAILED: the 1th case]###############
+[2017-10-08 19:09:35] INFO: ###############[clear and restore PASSED: total 0 cases]###############
+[2017-10-08 19:09:35] INFO: update script status: {:protocol=>{:what=>"Script", :round_id=>"1234", :data=>{:script_name=>"testlink_login_sample", :state=>"done", "service"=>[{"name"=>"WebServiceFrontend", "version"=>"v1.0.16"}, {"name"=>"WebServiceBackend", "version"=>"v1.0.19"}, {"name"=>"FaceServer", "version"=>"1.0.4"}, {"name"=>"CypressSystem", "version"=>"1.4.1"}]}}}
+[2017-10-08 19:11:17] INFO: Execute - Navigate to URL http://testlink.cdsankuai.com - success.
+[2017-10-08 19:11:17] INFO: ######################[ERROR MESSAGE]######################
+the 1th case from CASEID001_testlink login sample testing:
+test_data: {"request":{"username":"","password":""}}
+expected_data: {"successs":false,"message":"用户名或密码均为空"}
+
+undefined method `get' for nil:NilClass
+Did you mean?  gets
+               gem
+266----->        begin
+267----->          Common.logger_step  Execute - Navigate to URL #{url} - success. 
+268----->          $driver.get url
+269----->        rescue Timeout::Error
+270----->          Common.logger_info  Execute - Navigate to URL #{url} - warnning. get Timeout::Error  
+/Users/frankwu/eclipse-workspace/erp-mcashier-autoci/rtest-framework/common/utilities/web_driver.rb:268:in `navigate_to_url'
+/Users/frankwu/eclipse-workspace/erp-mcashier-autoci/rtest-framework/testflow/web/testlink_sample.rb:6:in `login_to_home'
+./sample/testlink_login_sample/action1_testlink_login.rb:8:in `block (2 levels) in action_1'
+./sample/testlink_login_sample/action1_testlink_login.rb:6:in `each'
+./sample/testlink_login_sample/action1_testlink_login.rb:6:in `block in action_1'
+[2017-10-08 19:11:17] INFO: ###############[CASEID001 FAILED: the 1th case]###############
+[2017-10-08 19:11:17] INFO: ###############[clear and restore PASSED: total 0 cases]###############
+[2017-10-08 19:11:17] INFO: update script status: {:protocol=>{:what=>"Script", :round_id=>"1234", :data=>{:script_name=>"testlink_login_sample", :state=>"done", "service"=>[{"name"=>"WebServiceFrontend", "version"=>"v1.0.16"}, {"name"=>"WebServiceBackend", "version"=>"v1.0.19"}, {"name"=>"FaceServer", "version"=>"1.0.4"}, {"name"=>"CypressSystem", "version"=>"1.4.1"}]}}}
+[2017-10-08 19:13:55] INFO: Execute - Navigate to URL http://testlink.cdsankuai.com - success.
+[2017-10-08 19:13:55] INFO: ######################[ERROR MESSAGE]######################
+the 1th case from CASEID001_testlink login sample testing:
+test_data: {"request":{"username":"","password":""}}
+expected_data: {"successs":false,"message":"用户名或密码均为空"}
+
+undefined method `get' for nil:NilClass
+Did you mean?  gets
+               gem
+266----->        begin
+267----->          Common.logger_step  Execute - Navigate to URL #{url} - success. 
+268----->          $driver.get url
+269----->        rescue Timeout::Error
+270----->          Common.logger_info  Execute - Navigate to URL #{url} - warnning. get Timeout::Error  
+/Users/frankwu/eclipse-workspace/erp-mcashier-autoci/rtest-framework/common/utilities/web_driver.rb:268:in `navigate_to_url'
+/Users/frankwu/eclipse-workspace/erp-mcashier-autoci/rtest-framework/testflow/web/testlink_sample.rb:6:in `login_to_home'
+./sample/testlink_login_sample/action1_testlink_login.rb:8:in `block (2 levels) in action_1'
+./sample/testlink_login_sample/action1_testlink_login.rb:6:in `each'
+./sample/testlink_login_sample/action1_testlink_login.rb:6:in `block in action_1'
+[2017-10-08 19:13:55] INFO: ###############[CASEID001 FAILED: the 1th case]###############
+[2017-10-08 19:13:55] INFO: ###############[clear and restore PASSED: total 0 cases]###############
+[2017-10-08 19:13:55] INFO: update script status: {:protocol=>{:what=>"Script", :round_id=>"1234", :data=>{:script_name=>"testlink_login_sample", :state=>"done", "service"=>[{"name"=>"WebServiceFrontend", "version"=>"v1.0.16"}, {"name"=>"WebServiceBackend", "version"=>"v1.0.19"}, {"name"=>"FaceServer", "version"=>"1.0.4"}, {"name"=>"CypressSystem", "version"=>"1.4.1"}]}}}
+[2017-10-08 19:14:24] INFO: Execute - Navigate to URL http://testlink.cdsankuai.com - success.
+[2017-10-08 19:14:25] INFO: TestlinkLogin::LoginAccountInput.wait_element_clickable passed - loop count: 0
+[2017-10-08 19:14:25] INFO: Execute - clear text of TestlinkLogin::LoginAccountInput - success.
+[2017-10-08 19:14:25] INFO: Execute - input text to TestlinkLogin::LoginAccountInput - success. [] is entered
+[2017-10-08 19:14:25] INFO: Execute - clear text of TestlinkLogin::PasswordInput - success.
+[2017-10-08 19:14:26] INFO: Execute - input text to TestlinkLogin::PasswordInput - success. [] is entered
+[2017-10-08 19:14:26] INFO: Execute - click TestlinkLogin::LoginButton - success.
+[2017-10-08 19:14:29] INFO: Assert  - check TestlinkLogin::LoginAccountInput should exist - success.
+[2017-10-08 19:14:29] INFO: Execute - Navigate to URL http://testlink.cdsankuai.com - success.
+[2017-10-08 19:14:31] INFO: TestlinkLogin::LoginAccountInput.wait_element_clickable passed - loop count: 0
+[2017-10-08 19:14:31] INFO: Execute - clear text of TestlinkLogin::LoginAccountInput - success.
+[2017-10-08 19:14:31] INFO: Execute - input text to TestlinkLogin::LoginAccountInput - success. [testlink] is entered
+[2017-10-08 19:14:31] INFO: Execute - clear text of TestlinkLogin::PasswordInput - success.
+[2017-10-08 19:14:31] INFO: Execute - input text to TestlinkLogin::PasswordInput - success. [] is entered
+[2017-10-08 19:14:31] INFO: Execute - click TestlinkLogin::LoginButton - success.
+[2017-10-08 19:14:35] INFO: Assert  - check TestlinkLogin::LoginAccountInput should exist - success.
+[2017-10-08 19:14:35] INFO: Execute - Navigate to URL http://testlink.cdsankuai.com - success.
+[2017-10-08 19:14:37] INFO: TestlinkLogin::LoginAccountInput.wait_element_clickable passed - loop count: 0
+[2017-10-08 19:14:37] INFO: Execute - clear text of TestlinkLogin::LoginAccountInput - success.
+[2017-10-08 19:14:37] INFO: Execute - input text to TestlinkLogin::LoginAccountInput - success. [] is entered
+[2017-10-08 19:14:37] INFO: Execute - clear text of TestlinkLogin::PasswordInput - success.
+[2017-10-08 19:14:37] INFO: Execute - input text to TestlinkLogin::PasswordInput - success. [123456] is entered
+[2017-10-08 19:14:37] INFO: Execute - click TestlinkLogin::LoginButton - success.
+[2017-10-08 19:14:40] INFO: Assert  - check TestlinkLogin::LoginAccountInput should exist - success.
+[2017-10-08 19:14:41] INFO: Execute - Navigate to URL http://testlink.cdsankuai.com - success.
+[2017-10-08 19:14:43] INFO: TestlinkLogin::LoginAccountInput.wait_element_clickable passed - loop count: 0
+[2017-10-08 19:14:43] INFO: Execute - clear text of TestlinkLogin::LoginAccountInput - success.
+[2017-10-08 19:14:43] INFO: Execute - input text to TestlinkLogin::LoginAccountInput - success. [testlink] is entered
+[2017-10-08 19:14:43] INFO: Execute - clear text of TestlinkLogin::PasswordInput - success.
+[2017-10-08 19:14:43] INFO: Execute - input text to TestlinkLogin::PasswordInput - success. [111111] is entered
+[2017-10-08 19:14:43] INFO: Execute - click TestlinkLogin::LoginButton - success.
+[2017-10-08 19:14:47] INFO: Assert  - check TestlinkLogin::LoginAccountInput should exist - success.
+[2017-10-08 19:14:47] INFO: Execute - Navigate to URL http://testlink.cdsankuai.com - success.
+[2017-10-08 19:14:49] INFO: TestlinkLogin::LoginAccountInput.wait_element_clickable passed - loop count: 0
+[2017-10-08 19:14:49] INFO: Execute - clear text of TestlinkLogin::LoginAccountInput - success.
+[2017-10-08 19:14:50] INFO: Execute - input text to TestlinkLogin::LoginAccountInput - success. [nouser] is entered
+[2017-10-08 19:14:50] INFO: Execute - clear text of TestlinkLogin::PasswordInput - success.
+[2017-10-08 19:14:50] INFO: Execute - input text to TestlinkLogin::PasswordInput - success. [111111] is entered
+[2017-10-08 19:14:50] INFO: Execute - click TestlinkLogin::LoginButton - success.
+[2017-10-08 19:14:53] INFO: Assert  - check TestlinkLogin::LoginAccountInput should exist - success.
+[2017-10-08 19:14:54] INFO: Execute - Navigate to URL http://testlink.cdsankuai.com - success.
+[2017-10-08 19:14:55] INFO: TestlinkLogin::LoginAccountInput.wait_element_clickable passed - loop count: 0
+[2017-10-08 19:14:55] INFO: Execute - clear text of TestlinkLogin::LoginAccountInput - success.
+[2017-10-08 19:14:55] INFO: Execute - input text to TestlinkLogin::LoginAccountInput - success. [testlink] is entered
+[2017-10-08 19:14:56] INFO: Execute - clear text of TestlinkLogin::PasswordInput - success.
+[2017-10-08 19:14:56] INFO: Execute - input text to TestlinkLogin::PasswordInput - success. [123456] is entered
+[2017-10-08 19:14:56] INFO: Execute - click TestlinkLogin::LoginButton - success.
+[2017-10-08 19:15:36] ERROR: Execute - wait TestlinkHome::AccountNameText to present - failed. the element with the property xpath and value //a[@href='logout.php']/../preceding-sibling::span[1] was not found in 30 seconds
+[2017-10-08 19:15:36] INFO: ######################[ERROR MESSAGE]######################
+the 6th case from CASEID001_testlink login sample testing:
+test_data: {"request":{"username":"testlink","password":"123456"}}
+expected_data: {"successs":true,"message":"账号密码正确"}
+
+Execute - wait TestlinkHome::AccountNameText to present - failed. the element with the property xpath and value //a[@href='logout.php']/../preceding-sibling::span[1] was not found in 30 seconds
+26----->        $logger.error  #{message} .gsub( \
+ , 
+ )
+27----->        $errormessage =  #{$errormessage}  &lt;&lt;timestamp&lt;&lt;  -- #{current_url}#{message}
+ 
+28----->        raise message
+29----->        false
+30----->      end
+/Users/frankwu/eclipse-workspace/erp-mcashier-autoci/rtest-framework/common/utilities/common.rb:28:in `logger_error'
+/Users/frankwu/eclipse-workspace/erp-mcashier-autoci/rtest-framework/common/elements/element_base.rb:224:in `block in wait_element_present'
+/Users/frankwu/eclipse-workspace/erp-mcashier-autoci/rtest-framework/common/elements/element_base.rb:220:in `times'
+/Users/frankwu/eclipse-workspace/erp-mcashier-autoci/rtest-framework/common/elements/element_base.rb:220:in `wait_element_present'
+./sample/testlink_login_sample/action1_testlink_login.rb:10:in `block (2 levels) in action_1'
+./sample/testlink_login_sample/action1_testlink_login.rb:6:in `each'
+./sample/testlink_login_sample/action1_testlink_login.rb:6:in `block in action_1'
+[2017-10-08 19:15:36] INFO: ###############[CASEID001 FAILED: the 6th case]###############
+[2017-10-08 19:15:36] INFO: ###############[clear and restore PASSED: total 0 cases]###############
+[2017-10-08 19:15:36] INFO: update script status: {:protocol=>{:what=>"Script", :round_id=>"1234", :data=>{:script_name=>"testlink_login_sample", :state=>"done", "service"=>[{"name"=>"WebServiceFrontend", "version"=>"v1.0.16"}, {"name"=>"WebServiceBackend", "version"=>"v1.0.19"}, {"name"=>"FaceServer", "version"=>"1.0.4"}, {"name"=>"CypressSystem", "version"=>"1.4.1"}]}}}
+[2017-10-08 19:20:55] INFO: Execute - Navigate to URL http://testlink.cdsankuai.com - success.
+[2017-10-08 19:20:57] INFO: TestlinkLogin::LoginAccountInput.wait_element_clickable passed - loop count: 0
+[2017-10-08 19:20:57] INFO: Execute - clear text of TestlinkLogin::LoginAccountInput - success.
+[2017-10-08 19:20:57] INFO: Execute - input text to TestlinkLogin::LoginAccountInput - success. [] is entered
+[2017-10-08 19:20:57] INFO: Execute - clear text of TestlinkLogin::PasswordInput - success.
+[2017-10-08 19:20:57] INFO: Execute - input text to TestlinkLogin::PasswordInput - success. [] is entered
+[2017-10-08 19:20:57] INFO: Execute - click TestlinkLogin::LoginButton - success.
+[2017-10-08 19:21:00] INFO: Assert  - check TestlinkLogin::LoginAccountInput should exist - success.
+[2017-10-08 19:21:01] INFO: Execute - Navigate to URL http://testlink.cdsankuai.com - success.
+[2017-10-08 19:21:02] INFO: TestlinkLogin::LoginAccountInput.wait_element_clickable passed - loop count: 0
+[2017-10-08 19:21:02] INFO: Execute - clear text of TestlinkLogin::LoginAccountInput - success.
+[2017-10-08 19:21:03] INFO: Execute - input text to TestlinkLogin::LoginAccountInput - success. [testlink] is entered
+[2017-10-08 19:21:03] INFO: Execute - clear text of TestlinkLogin::PasswordInput - success.
+[2017-10-08 19:21:03] INFO: Execute - input text to TestlinkLogin::PasswordInput - success. [] is entered
+[2017-10-08 19:21:03] INFO: Execute - click TestlinkLogin::LoginButton - success.
+[2017-10-08 19:21:06] INFO: Assert  - check TestlinkLogin::LoginAccountInput should exist - success.
+[2017-10-08 19:21:06] INFO: Execute - Navigate to URL http://testlink.cdsankuai.com - success.
+[2017-10-08 19:21:08] INFO: TestlinkLogin::LoginAccountInput.wait_element_clickable passed - loop count: 0
+[2017-10-08 19:21:08] INFO: Execute - clear text of TestlinkLogin::LoginAccountInput - success.
+[2017-10-08 19:21:08] INFO: Execute - input text to TestlinkLogin::LoginAccountInput - success. [] is entered
+[2017-10-08 19:21:08] INFO: Execute - clear text of TestlinkLogin::PasswordInput - success.
+[2017-10-08 19:21:08] INFO: Execute - input text to TestlinkLogin::PasswordInput - success. [123456] is entered
+[2017-10-08 19:21:08] INFO: Execute - click TestlinkLogin::LoginButton - success.
+[2017-10-08 19:21:12] INFO: Assert  - check TestlinkLogin::LoginAccountInput should exist - success.
+[2017-10-08 19:21:12] INFO: Execute - Navigate to URL http://testlink.cdsankuai.com - success.
+[2017-10-08 19:21:14] INFO: TestlinkLogin::LoginAccountInput.wait_element_clickable passed - loop count: 0
+[2017-10-08 19:21:14] INFO: Execute - clear text of TestlinkLogin::LoginAccountInput - success.
+[2017-10-08 19:21:14] INFO: Execute - input text to TestlinkLogin::LoginAccountInput - success. [testlink] is entered
+[2017-10-08 19:21:15] INFO: Execute - clear text of TestlinkLogin::PasswordInput - success.
+[2017-10-08 19:21:15] INFO: Execute - input text to TestlinkLogin::PasswordInput - success. [111111] is entered
+[2017-10-08 19:21:15] INFO: Execute - click TestlinkLogin::LoginButton - success.
+[2017-10-08 19:21:18] INFO: Assert  - check TestlinkLogin::LoginAccountInput should exist - success.
+[2017-10-08 19:21:19] INFO: Execute - Navigate to URL http://testlink.cdsankuai.com - success.
+[2017-10-08 19:21:21] INFO: TestlinkLogin::LoginAccountInput.wait_element_clickable passed - loop count: 0
+[2017-10-08 19:21:21] INFO: Execute - clear text of TestlinkLogin::LoginAccountInput - success.
+[2017-10-08 19:21:21] INFO: Execute - input text to TestlinkLogin::LoginAccountInput - success. [nouser] is entered
+[2017-10-08 19:21:21] INFO: Execute - clear text of TestlinkLogin::PasswordInput - success.
+[2017-10-08 19:21:21] INFO: Execute - input text to TestlinkLogin::PasswordInput - success. [111111] is entered
+[2017-10-08 19:21:21] INFO: Execute - click TestlinkLogin::LoginButton - success.
+[2017-10-08 19:21:24] INFO: Assert  - check TestlinkLogin::LoginAccountInput should exist - success.
+[2017-10-08 19:21:25] INFO: Execute - Navigate to URL http://testlink.cdsankuai.com - success.
+[2017-10-08 19:21:27] INFO: TestlinkLogin::LoginAccountInput.wait_element_clickable passed - loop count: 0
+[2017-10-08 19:21:27] INFO: Execute - clear text of TestlinkLogin::LoginAccountInput - success.
+[2017-10-08 19:21:27] INFO: Execute - input text to TestlinkLogin::LoginAccountInput - success. [testlink] is entered
+[2017-10-08 19:21:27] INFO: Execute - clear text of TestlinkLogin::PasswordInput - success.
+[2017-10-08 19:21:28] INFO: Execute - input text to TestlinkLogin::PasswordInput - success. [123456] is entered
+[2017-10-08 19:21:28] INFO: Execute - click TestlinkLogin::LoginButton - success.
+[2017-10-08 19:21:32] INFO: Execute - wait TestlinkHome::AccountNameText to present - success. it shows in 30 seconds
+[2017-10-08 19:21:32] INFO: Execute - get text of TestlinkHome::AccountNameText - success. get text [testlink [guest]]
+[2017-10-08 19:21:32] INFO: Assert  - TestlinkHome::AccountNameText should include text testlink - success.
+[2017-10-08 19:21:32] INFO: ###############[CASEID001 PASSED: total 6 cases]###############
+[2017-10-08 19:21:32] INFO: ###############[clear and restore PASSED: total 0 cases]###############
+[2017-10-08 19:21:32] INFO: update script status: {:protocol=>{:what=>"Script", :round_id=>"1234", :data=>{:script_name=>"testlink_login_sample", :state=>"done", "service"=>[{"name"=>"WebServiceFrontend", "version"=>"v1.0.16"}, {"name"=>"WebServiceBackend", "version"=>"v1.0.19"}, {"name"=>"FaceServer", "version"=>"1.0.4"}, {"name"=>"CypressSystem", "version"=>"1.4.1"}]}}}
+[2017-10-08 19:45:23] INFO: [2017-10-08 19:45:23]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>"123456"}
+[2017-10-08 19:45:24] INFO: [2017-10-08 19:45:24]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:45:24] INFO: ######################[ERROR MESSAGE]######################
+the 1th case from API-LOGIN001_testlink login api sample testing:
+test_data: {"method":"post","request":{"tl_login":"","tl_password":""}}
+expected_data: {"successs":false,"message":"用户名或密码均为空"}
+
+uninitialized constant HttpTestlinkBase::HttpTestLinkBase
+Did you mean?  HttpTestlinkBase
+55----->    
+56----->    def testlink_request_unsign(method, api_name, data={}, header={})
+57----->      response = HttpTestLinkBase.http_request(method,  #{SERVICE_API_URL[$env][ SnowApi ]}#{api_name} , data, @headers.merge(header))
+58----->      return (JSON.parse(response) rescue  #{response} ), response
+59----->    end
+/Users/frankwu/eclipse-workspace/erp-mcashier-autoci/rtest-framework/library/sample/http/testlink_base.rb:57:in `testlink_request_unsign'
+./sample/api_testlink_login/action1_api_login.rb:12:in `block (2 levels) in action_1'
+./sample/api_testlink_login/action1_api_login.rb:10:in `each'
+./sample/api_testlink_login/action1_api_login.rb:10:in `block in action_1'
+[2017-10-08 19:45:24] INFO: ###############[API-LOGIN001 FAILED: the 1th case]###############
+[2017-10-08 19:45:24] INFO: ###############[clear test db PASSED: total 0 cases]###############
+[2017-10-08 19:45:24] INFO: update script status: {:protocol=>{:what=>"Script", :round_id=>"1234", :data=>{:script_name=>"api_testlink_login", :state=>"done", "service"=>[{"name"=>"WebServiceFrontend", "version"=>"v1.0.16"}, {"name"=>"WebServiceBackend", "version"=>"v1.0.19"}, {"name"=>"FaceServer", "version"=>"1.0.4"}, {"name"=>"CypressSystem", "version"=>"1.4.1"}]}}}
+[2017-10-08 19:47:31] INFO: [2017-10-08 19:47:31]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>"123456"}
+[2017-10-08 19:47:31] INFO: [2017-10-08 19:47:31]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:47:31] INFO: [2017-10-08 19:47:31]====>http://192.168.64.201:3000/lib/usermanagement/userInfo.php post data: 
+{"doAction"=>"changePassword", "oldpassword"=>"123456", "newpassword"=>"123456", "newpassword_check"=>"123456"}
+[2017-10-08 19:48:47] INFO: [2017-10-08 19:48:47]====>http://192.168.64.201:3000/lib/usermanagement/userInfo.php post done.
+[2017-10-08 19:48:47] INFO: ###############[precondition: create category PASSED: total 0 cases]###############
+[2017-10-08 19:48:47] INFO: [2017-10-08 19:48:47]====>http://192.168.64.201:3000/login.php post data: 
+{"tl_login"=>"", "tl_password"=>""}
+[2017-10-08 19:50:02] INFO: [2017-10-08 19:50:02]====>http://192.168.64.201:3000/login.php post done.
+[2017-10-08 19:50:02] INFO: ######################[ERROR MESSAGE]######################
+the 1th case from API-LOGIN001_testlink login api sample testing:
+test_data: {"method":"post","request":{"tl_login":"","tl_password":""}}
+expected_data: {"successs":false,"message":"用户名或密码均为空"}
+
+undefined method `code' for nil:NilClass
+11----->        $step_array = $step_array &lt;&lt; test_data
+12----->        response_data, response = api_base.testlink_request_unsign(test_data[ method ],$parameters[ api_path ],test_data[ request ])
+13----->        Common.logger_info( response --&gt;&gt; #{response_data}, #{response.code} )
+14----->        expect(response.code).to eq(test_data[ expected ][ code ])
+15----->        expect(response_data).to include(test_data[ expected ][ message ])
+./sample/api_testlink_login/action1_api_login.rb:13:in `block (2 levels) in action_1'
+./sample/api_testlink_login/action1_api_login.rb:10:in `each'
+./sample/api_testlink_login/action1_api_login.rb:10:in `block in action_1'
+[2017-10-08 19:50:02] INFO: ###############[API-LOGIN001 FAILED: the 1th case]###############
+[2017-10-08 19:50:02] INFO: ###############[clear test db PASSED: total 0 cases]###############
+[2017-10-08 19:50:02] INFO: update script status: {:protocol=>{:what=>"Script", :round_id=>"1234", :data=>{:script_name=>"api_testlink_login", :state=>"done", "service"=>[{"name"=>"WebServiceFrontend", "version"=>"v1.0.16"}, {"name"=>"WebServiceBackend", "version"=>"v1.0.19"}, {"name"=>"FaceServer", "version"=>"1.0.4"}, {"name"=>"CypressSystem", "version"=>"1.4.1"}]}}}
+[2017-10-08 19:55:55] INFO: [2017-10-08 19:55:55]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>"123456"}
+[2017-10-08 19:55:55] INFO: [2017-10-08 19:55:55]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:55:55] INFO: [2017-10-08 19:55:55]====>http://testlink.cdsankuai.com/lib/usermanagement/userInfo.php post data: 
+{"doAction"=>"changePassword", "oldpassword"=>"123456", "newpassword"=>"123456", "newpassword_check"=>"123456"}
+[2017-10-08 19:55:55] INFO: [2017-10-08 19:55:55]====>http://testlink.cdsankuai.com/lib/usermanagement/userInfo.php post done.
+[2017-10-08 19:55:55] INFO: ###############[precondition: create category PASSED: total 0 cases]###############
+[2017-10-08 19:55:55] INFO: [2017-10-08 19:55:55]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"", "tl_password"=>""}
+[2017-10-08 19:55:56] INFO: [2017-10-08 19:55:56]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:55:56] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://testlink.cdsankuai.com/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://testlink.cdsankuai.com/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://testlink.cdsankuai.com/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://testlink.cdsankuai.com/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_1139162285' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='94bbb8144b536bc95b7d36f31d14255b4880f857ab48ff49c677889794315866efdd7a71efe5dc75d9649dc643ddcc2af519c9a19a6caa2ced7bce4ee9d4699c' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>, 200
+[2017-10-08 19:55:56] INFO: [2017-10-08 19:55:56]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>""}
+[2017-10-08 19:55:56] INFO: [2017-10-08 19:55:56]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:55:56] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://testlink.cdsankuai.com/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://testlink.cdsankuai.com/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://testlink.cdsankuai.com/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://testlink.cdsankuai.com/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_1270659406' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='f5745e98f7590f2164eb5d186fb3862ca307bfd86e103f789154fc5171965906d91b7252eb1e9c0a3aea21500e0450945a6be18e54505c4d93380824ef5241d0' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>, 200
+[2017-10-08 19:55:56] INFO: [2017-10-08 19:55:56]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"", "tl_password"=>"123456"}
+[2017-10-08 19:55:56] INFO: [2017-10-08 19:55:56]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:55:56] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://testlink.cdsankuai.com/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://testlink.cdsankuai.com/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://testlink.cdsankuai.com/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://testlink.cdsankuai.com/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_1947762624' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='1052d8def713a2f4498fbcd2da568206c8b47395cf7c53c57b91cd18f50fd2b0274226bd3756f5e40b700cc4eeebe085b53f3870d36123f1c8e2d6787360f976' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>, 200
+[2017-10-08 19:55:56] INFO: [2017-10-08 19:55:56]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>"111111"}
+[2017-10-08 19:55:56] INFO: [2017-10-08 19:55:56]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:55:56] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://testlink.cdsankuai.com/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://testlink.cdsankuai.com/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://testlink.cdsankuai.com/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://testlink.cdsankuai.com/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_2033730042' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='5bd9706a6d72b1e412f3348ee63805ff2fef3b060a26310eaf175f405560879133fc907a53000c1da3efecb95e80857ca2b0ff1a7a12dc7aef1fb3521757d149' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>, 200
+[2017-10-08 19:55:56] INFO: [2017-10-08 19:55:56]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"nouser", "tl_password"=>"111111"}
+[2017-10-08 19:55:57] INFO: [2017-10-08 19:55:57]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:55:57] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://testlink.cdsankuai.com/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://testlink.cdsankuai.com/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://testlink.cdsankuai.com/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://testlink.cdsankuai.com/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_1517269606' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='6c4858b8882e7cd8f1f87e50f282abaeaf1becef17e2f7e4a23e748846fe3cb0ce10761d6ecaad16b101ca05fbf1e3d794c0f2701e3259ded42f34d3cebb7e70' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>, 200
+[2017-10-08 19:55:57] INFO: [2017-10-08 19:55:57]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>"123456"}
+[2017-10-08 19:55:57] INFO: [2017-10-08 19:55:57]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:55:57] INFO: response -->> <html><head></head><body><script type='text/javascript'>location.href='http://testlink.cdsankuai.com/index.php?caller=login';</script></body></html>, 200
+[2017-10-08 19:55:57] INFO: ###############[API-LOGIN001 PASSED: total 6 cases]###############
+[2017-10-08 19:55:57] INFO: ###############[clear test db PASSED: total 0 cases]###############
+[2017-10-08 19:55:57] INFO: update script status: {:protocol=>{:what=>"Script", :round_id=>"1234", :data=>{:script_name=>"api_testlink_login", :state=>"done", "service"=>[{"name"=>"WebServiceFrontend", "version"=>"v1.0.16"}, {"name"=>"WebServiceBackend", "version"=>"v1.0.19"}, {"name"=>"FaceServer", "version"=>"1.0.4"}, {"name"=>"CypressSystem", "version"=>"1.4.1"}]}}}
+[2017-10-08 19:56:51] INFO: [2017-10-08 19:56:51]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>"123456"}
+[2017-10-08 19:56:52] INFO: [2017-10-08 19:56:52]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:56:52] INFO: [2017-10-08 19:56:52]====>http://testlink.cdsankuai.com/lib/usermanagement/userInfo.php post data: 
+{"doAction"=>"changePassword", "oldpassword"=>"123456", "newpassword"=>"123456", "newpassword_check"=>"123456"}
+[2017-10-08 19:56:52] INFO: [2017-10-08 19:56:52]====>http://testlink.cdsankuai.com/lib/usermanagement/userInfo.php post done.
+[2017-10-08 19:56:52] INFO: ###############[precondition: create category PASSED: total 0 cases]###############
+[2017-10-08 19:56:52] INFO: [2017-10-08 19:56:52]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"", "tl_password"=>""}
+[2017-10-08 19:56:52] INFO: [2017-10-08 19:56:52]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:56:52] INFO: response -->> 200
+[2017-10-08 19:56:52] INFO: [2017-10-08 19:56:52]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>""}
+[2017-10-08 19:56:52] INFO: [2017-10-08 19:56:52]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:56:52] INFO: response -->> 200
+[2017-10-08 19:56:52] INFO: [2017-10-08 19:56:52]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"", "tl_password"=>"123456"}
+[2017-10-08 19:56:53] INFO: [2017-10-08 19:56:53]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:56:53] INFO: response -->> 200
+[2017-10-08 19:56:53] INFO: [2017-10-08 19:56:53]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>"111111"}
+[2017-10-08 19:56:53] INFO: [2017-10-08 19:56:53]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:56:53] INFO: response -->> 200
+[2017-10-08 19:56:53] INFO: [2017-10-08 19:56:53]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"nouser", "tl_password"=>"111111"}
+[2017-10-08 19:56:53] INFO: [2017-10-08 19:56:53]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:56:53] INFO: response -->> 200
+[2017-10-08 19:56:53] INFO: [2017-10-08 19:56:53]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>"123456"}
+[2017-10-08 19:56:54] INFO: [2017-10-08 19:56:54]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:56:54] INFO: response -->> 200
+[2017-10-08 19:56:54] INFO: ###############[API-LOGIN001 PASSED: total 6 cases]###############
+[2017-10-08 19:56:54] INFO: ###############[clear test db PASSED: total 0 cases]###############
+[2017-10-08 19:56:54] INFO: update script status: {:protocol=>{:what=>"Script", :round_id=>"1234", :data=>{:script_name=>"api_testlink_login", :state=>"done", "service"=>[{"name"=>"WebServiceFrontend", "version"=>"v1.0.16"}, {"name"=>"WebServiceBackend", "version"=>"v1.0.19"}, {"name"=>"FaceServer", "version"=>"1.0.4"}, {"name"=>"CypressSystem", "version"=>"1.4.1"}]}}}
+[2017-10-08 19:58:44] INFO: [2017-10-08 19:58:44]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>"123456"}
+[2017-10-08 19:58:45] INFO: [2017-10-08 19:58:45]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:58:45] INFO: [2017-10-08 19:58:45]====>http://testlink.cdsankuai.com/lib/usermanagement/userInfo.php post data: 
+{"doAction"=>"changePassword", "oldpassword"=>"123456", "newpassword"=>"123456", "newpassword_check"=>"123456"}
+[2017-10-08 19:58:45] INFO: [2017-10-08 19:58:45]====>http://testlink.cdsankuai.com/lib/usermanagement/userInfo.php post done.
+[2017-10-08 19:58:45] INFO: ###############[precondition: create category PASSED: total 0 cases]###############
+[2017-10-08 19:58:45] INFO: [2017-10-08 19:58:45]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"", "tl_password"=>""}
+[2017-10-08 19:58:45] INFO: [2017-10-08 19:58:45]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:58:45] INFO: response -->> 200
+[2017-10-08 19:58:45] INFO: [2017-10-08 19:58:45]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>""}
+[2017-10-08 19:58:45] INFO: [2017-10-08 19:58:45]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:58:45] INFO: response -->> 200
+[2017-10-08 19:58:45] INFO: [2017-10-08 19:58:45]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"", "tl_password"=>"123456"}
+[2017-10-08 19:58:46] INFO: [2017-10-08 19:58:46]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:58:46] INFO: response -->> 200
+[2017-10-08 19:58:46] INFO: [2017-10-08 19:58:46]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>"111111"}
+[2017-10-08 19:58:46] INFO: [2017-10-08 19:58:46]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:58:46] INFO: response -->> 200
+[2017-10-08 19:58:46] INFO: [2017-10-08 19:58:46]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"nouser", "tl_password"=>"111111"}
+[2017-10-08 19:58:46] INFO: [2017-10-08 19:58:46]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:58:46] INFO: response -->> 200
+[2017-10-08 19:58:46] INFO: [2017-10-08 19:58:46]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>"123456"}
+[2017-10-08 19:58:47] INFO: [2017-10-08 19:58:47]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:58:47] INFO: response -->> 200
+[2017-10-08 19:58:47] INFO: ######################[ERROR MESSAGE]######################
+the 6th case from API-LOGIN001_testlink login api sample testing:
+test_data: {"method":"post","request":{"tl_login":"testlink","tl_password":"123456"}}
+expected_data: {"code":302,"message":"账号密码正确"}
+
+
+expected: 302
+     got: 200
+
+(compared using ==)
+
+12----->        response_data, response = api_base.testlink_request_unsign(test_data[ method ],$parameters[ api_path ],test_data[ request ])
+13----->        Common.logger_info( response --&gt;&gt; #{response.code} )
+14----->        expect(response.code).to eq(test_data[ expected ][ code ])
+15----->        #expect(response_data).to include(test_data[ expected ][ message ])
+16----->      end
+./sample/api_testlink_login/action1_api_login.rb:14:in `block (2 levels) in action_1'
+./sample/api_testlink_login/action1_api_login.rb:10:in `each'
+./sample/api_testlink_login/action1_api_login.rb:10:in `block in action_1'
+[2017-10-08 19:58:47] INFO: ###############[API-LOGIN001 FAILED: the 6th case]###############
+[2017-10-08 19:58:47] INFO: ###############[clear test db PASSED: total 0 cases]###############
+[2017-10-08 19:58:47] INFO: update script status: {:protocol=>{:what=>"Script", :round_id=>"1234", :data=>{:script_name=>"api_testlink_login", :state=>"done", "service"=>[{"name"=>"WebServiceFrontend", "version"=>"v1.0.16"}, {"name"=>"WebServiceBackend", "version"=>"v1.0.19"}, {"name"=>"FaceServer", "version"=>"1.0.4"}, {"name"=>"CypressSystem", "version"=>"1.4.1"}]}}}
+[2017-10-08 19:59:24] INFO: [2017-10-08 19:59:24]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>"123456"}
+[2017-10-08 19:59:24] INFO: [2017-10-08 19:59:24]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:59:24] INFO: [2017-10-08 19:59:24]====>http://testlink.cdsankuai.com/lib/usermanagement/userInfo.php post data: 
+{"doAction"=>"changePassword", "oldpassword"=>"123456", "newpassword"=>"123456", "newpassword_check"=>"123456"}
+[2017-10-08 19:59:24] INFO: [2017-10-08 19:59:24]====>http://testlink.cdsankuai.com/lib/usermanagement/userInfo.php post done.
+[2017-10-08 19:59:24] INFO: ###############[precondition: create category PASSED: total 0 cases]###############
+[2017-10-08 19:59:24] INFO: [2017-10-08 19:59:24]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"", "tl_password"=>""}
+[2017-10-08 19:59:25] INFO: [2017-10-08 19:59:25]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:59:25] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://testlink.cdsankuai.com/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://testlink.cdsankuai.com/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://testlink.cdsankuai.com/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://testlink.cdsankuai.com/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_698703116' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='4939a6aea7cb073e0ff3848410e7c0e5eee357dfccd2bf6fa155ecc750ec2b1ce08e036042e0a9ccd927e78d1c8b04b9a42bce1e70cd6cbfa0e3e8b448a8bbbb' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>,200
+[2017-10-08 19:59:25] INFO: [2017-10-08 19:59:25]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>""}
+[2017-10-08 19:59:25] INFO: [2017-10-08 19:59:25]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:59:25] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://testlink.cdsankuai.com/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://testlink.cdsankuai.com/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://testlink.cdsankuai.com/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://testlink.cdsankuai.com/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_245217305' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='b8743d2425f66b714ea3d4ea1d7b304da815efcecf200789795bd32e0a1cb78777f06841a73601268b645f5dc1b44f0c55dd4e5782df69360f6562cd2064ca4c' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>,200
+[2017-10-08 19:59:25] INFO: [2017-10-08 19:59:25]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"", "tl_password"=>"123456"}
+[2017-10-08 19:59:25] INFO: [2017-10-08 19:59:25]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:59:25] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://testlink.cdsankuai.com/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://testlink.cdsankuai.com/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://testlink.cdsankuai.com/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://testlink.cdsankuai.com/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_1047290558' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='79a3ad9c0f5be4a26839e1e7bef3fe14d9557cf0dec1f1e9a97b30781dc2e21f887b72d80f6ae75283d2f6035eef1a02a24b451066d99bf61bfbeee3ab78b5d5' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>,200
+[2017-10-08 19:59:25] INFO: [2017-10-08 19:59:25]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>"111111"}
+[2017-10-08 19:59:25] INFO: [2017-10-08 19:59:25]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:59:25] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://testlink.cdsankuai.com/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://testlink.cdsankuai.com/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://testlink.cdsankuai.com/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://testlink.cdsankuai.com/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_431927350' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='a482a61b9cd78958e3bf46ca56f5fe1af909e77c6f0d16f6a1c9fa0a885cb849b5e7a967b4b4b399922ba17031db8031da676bf4ec6c50d6fbf3a2481c3ec11c' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>,200
+[2017-10-08 19:59:25] INFO: [2017-10-08 19:59:25]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"nouser", "tl_password"=>"111111"}
+[2017-10-08 19:59:26] INFO: [2017-10-08 19:59:26]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:59:26] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://testlink.cdsankuai.com/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://testlink.cdsankuai.com/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://testlink.cdsankuai.com/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://testlink.cdsankuai.com/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_522960280' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='40cf2f909b9075fc57eaf80110595e15b073fdd0c11a3f2255219028efc956ba57eb42bf841fd0f5f13fa66ce871aa3d15ebcd37dfaf95accc590e8a35c60307' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>,200
+[2017-10-08 19:59:26] INFO: [2017-10-08 19:59:26]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>"123456"}
+[2017-10-08 19:59:26] INFO: [2017-10-08 19:59:26]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 19:59:26] INFO: response -->> <html><head></head><body><script type='text/javascript'>location.href='http://testlink.cdsankuai.com/index.php?caller=login';</script></body></html>,200
+[2017-10-08 19:59:26] INFO: ######################[ERROR MESSAGE]######################
+the 6th case from API-LOGIN001_testlink login api sample testing:
+test_data: {"method":"post","request":{"tl_login":"testlink","tl_password":"123456"}}
+expected_data: {"code":302,"message":"账号密码正确"}
+
+
+expected: 302
+     got: 200
+
+(compared using ==)
+
+12----->        response_data, response = api_base.testlink_request_unsign(test_data[ method ],$parameters[ api_path ],test_data[ request ])
+13----->        Common.logger_info( response --&gt;&gt; #{response_data},#{response.code} )
+14----->        expect(response.code).to eq(test_data[ expected ][ code ])
+15----->        #expect(response_data).to include(test_data[ expected ][ message ])
+16----->      end
+./sample/api_testlink_login/action1_api_login.rb:14:in `block (2 levels) in action_1'
+./sample/api_testlink_login/action1_api_login.rb:10:in `each'
+./sample/api_testlink_login/action1_api_login.rb:10:in `block in action_1'
+[2017-10-08 19:59:26] INFO: ###############[API-LOGIN001 FAILED: the 6th case]###############
+[2017-10-08 19:59:26] INFO: ###############[clear test db PASSED: total 0 cases]###############
+[2017-10-08 19:59:26] INFO: update script status: {:protocol=>{:what=>"Script", :round_id=>"1234", :data=>{:script_name=>"api_testlink_login", :state=>"done", "service"=>[{"name"=>"WebServiceFrontend", "version"=>"v1.0.16"}, {"name"=>"WebServiceBackend", "version"=>"v1.0.19"}, {"name"=>"FaceServer", "version"=>"1.0.4"}, {"name"=>"CypressSystem", "version"=>"1.4.1"}]}}}
+[2017-10-08 20:03:11] INFO: [2017-10-08 20:03:11]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>"123456"}
+[2017-10-08 20:03:13] INFO: [2017-10-08 20:03:13]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 20:03:13] INFO: [2017-10-08 20:03:13]====>http://testlink.cdsankuai.com/lib/usermanagement/userInfo.php post data: 
+{"doAction"=>"changePassword", "oldpassword"=>"123456", "newpassword"=>"123456", "newpassword_check"=>"123456"}
+[2017-10-08 20:03:13] INFO: [2017-10-08 20:03:13]====>http://testlink.cdsankuai.com/lib/usermanagement/userInfo.php post done.
+[2017-10-08 20:03:13] INFO: ###############[precondition: create category PASSED: total 0 cases]###############
+[2017-10-08 20:03:13] INFO: [2017-10-08 20:03:13]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"", "tl_password"=>""}
+[2017-10-08 20:03:13] INFO: [2017-10-08 20:03:13]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 20:03:13] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://testlink.cdsankuai.com/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://testlink.cdsankuai.com/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://testlink.cdsankuai.com/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://testlink.cdsankuai.com/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_1357987490' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='6e3ae4ac28860eb564d974958ec1e00b66066c701f317e5e623066ae8f6963cc6fa73e0d4a9f943722802bf2f6440e32bb0ba97eee7b881b7873b3b320a20c89' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>,200
+[2017-10-08 20:03:13] INFO: [2017-10-08 20:03:13]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>""}
+[2017-10-08 20:03:13] INFO: [2017-10-08 20:03:13]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 20:03:13] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://testlink.cdsankuai.com/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://testlink.cdsankuai.com/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://testlink.cdsankuai.com/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://testlink.cdsankuai.com/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_1855219209' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='706ab301d31573144cab207bafef6a31e2cebf38085bc04fabd22b3655d52aabe3f4a612f28cf7d9d2a17c9320c3010e413a4fd722e35bf69be068216ac342f8' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>,200
+[2017-10-08 20:03:13] INFO: [2017-10-08 20:03:13]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"", "tl_password"=>"123456"}
+[2017-10-08 20:03:14] INFO: [2017-10-08 20:03:14]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 20:03:14] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://testlink.cdsankuai.com/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://testlink.cdsankuai.com/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://testlink.cdsankuai.com/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://testlink.cdsankuai.com/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_1220077440' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='7a10888e2e324d7b8ecdb33437dce90abbc6554f745d70eccdcd3e5415569298f62c8c5ae550fd51af2bfc7965e8baadcfe17cf030692503a4d94bf7ba055903' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>,200
+[2017-10-08 20:03:14] INFO: [2017-10-08 20:03:14]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>"111111"}
+[2017-10-08 20:03:14] INFO: [2017-10-08 20:03:14]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 20:03:14] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://testlink.cdsankuai.com/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://testlink.cdsankuai.com/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://testlink.cdsankuai.com/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://testlink.cdsankuai.com/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_518058066' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='8ddad4fb0e445ba70797cee5a6bb5d8c52244991df44903487cc682017eb253ae89323dbb9d29327a567d5106d7546fd1b47644192cf85370771a4ecc8cfdd94' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>,200
+[2017-10-08 20:03:14] INFO: [2017-10-08 20:03:14]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"nouser", "tl_password"=>"111111"}
+[2017-10-08 20:03:14] INFO: [2017-10-08 20:03:14]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 20:03:14] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://testlink.cdsankuai.com/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://testlink.cdsankuai.com/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://testlink.cdsankuai.com/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://testlink.cdsankuai.com/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_164074255' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='487fcf89d8ecfbd8b68e034f42de8914c1d7aa7a5e9b1d7127a134034dbaeb495eeff66f1a861005020803f90ea7471932bb8f3f139085542d94dc35d8618cf4' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>,200
+[2017-10-08 20:03:14] INFO: [2017-10-08 20:03:14]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>"123456"}
+[2017-10-08 20:03:15] INFO: [2017-10-08 20:03:15]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 20:03:15] INFO: response -->> <html><head></head><body><script type='text/javascript'>location.href='http://testlink.cdsankuai.com/index.php?caller=login';</script></body></html>,200
+[2017-10-08 20:03:15] INFO: ######################[ERROR MESSAGE]######################
+the 6th case from API-LOGIN001_testlink login api sample testing:
+test_data: {"method":"post","request":{"tl_login":"testlink","tl_password":"123456"}}
+expected_data: {"code":200,"sub_url":"login.php","message":"账号密码正确"}
+
+expected "<html><head></head><body><script type='text/javascript'>location.href='http://testlink.cdsankuai.com/index.php?caller=login';</script></body></html>" to include "login.php"
+13----->        Common.logger_info( response --&gt;&gt; #{response_data},#{response.code} )
+14----->        expect(response.code).to eq(test_data[ expected ][ code ])
+15----->        expect(response_data).to include(test_data[ expected ][ sub_url ])
+16----->      end
+17----->    end
+./sample/api_testlink_login/action1_api_login.rb:15:in `block (2 levels) in action_1'
+./sample/api_testlink_login/action1_api_login.rb:10:in `each'
+./sample/api_testlink_login/action1_api_login.rb:10:in `block in action_1'
+[2017-10-08 20:03:15] INFO: ###############[API-LOGIN001 FAILED: the 6th case]###############
+[2017-10-08 20:03:15] INFO: ###############[clear test db PASSED: total 0 cases]###############
+[2017-10-08 20:03:15] INFO: update script status: {:protocol=>{:what=>"Script", :round_id=>"1234", :data=>{:script_name=>"api_testlink_login", :state=>"done", "service"=>[{"name"=>"WebServiceFrontend", "version"=>"v1.0.16"}, {"name"=>"WebServiceBackend", "version"=>"v1.0.19"}, {"name"=>"FaceServer", "version"=>"1.0.4"}, {"name"=>"CypressSystem", "version"=>"1.4.1"}]}}}
+[2017-10-08 20:04:59] INFO: [2017-10-08 20:04:59]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>"123456"}
+[2017-10-08 20:05:00] INFO: [2017-10-08 20:05:00]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 20:05:00] INFO: [2017-10-08 20:05:00]====>http://testlink.cdsankuai.com/lib/usermanagement/userInfo.php post data: 
+{"doAction"=>"changePassword", "oldpassword"=>"123456", "newpassword"=>"123456", "newpassword_check"=>"123456"}
+[2017-10-08 20:05:00] INFO: [2017-10-08 20:05:00]====>http://testlink.cdsankuai.com/lib/usermanagement/userInfo.php post done.
+[2017-10-08 20:05:00] INFO: ###############[precondition: create category PASSED: total 0 cases]###############
+[2017-10-08 20:05:00] INFO: [2017-10-08 20:05:00]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"", "tl_password"=>""}
+[2017-10-08 20:05:00] INFO: [2017-10-08 20:05:00]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 20:05:00] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://testlink.cdsankuai.com/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://testlink.cdsankuai.com/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://testlink.cdsankuai.com/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://testlink.cdsankuai.com/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_2104614438' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='75eda5f0a77aed0c2010624ee001398f97ed41f7d75daa7cd0b6694bc353feeeeb7925914121a9d3240aa1310c5b1f895b85feb272d91b4481349fb32b8b5f71' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>,200
+[2017-10-08 20:05:00] INFO: [2017-10-08 20:05:00]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>""}
+[2017-10-08 20:05:00] INFO: [2017-10-08 20:05:00]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 20:05:00] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://testlink.cdsankuai.com/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://testlink.cdsankuai.com/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://testlink.cdsankuai.com/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://testlink.cdsankuai.com/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_2136503327' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='eefb5c9195654b2ae7ca4fd29de6136b861751751b1e9e3f95a2ac8a2ebdf947d1594c9a823a0f954ffd315d24f8c9cbc1c17013099521f9814636d9e3b79c12' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>,200
+[2017-10-08 20:05:00] INFO: [2017-10-08 20:05:00]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"", "tl_password"=>"123456"}
+[2017-10-08 20:05:00] INFO: [2017-10-08 20:05:00]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 20:05:00] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://testlink.cdsankuai.com/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://testlink.cdsankuai.com/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://testlink.cdsankuai.com/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://testlink.cdsankuai.com/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_310996562' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='3cc7798d8fde68c97eba5b7d2fda19ec1f87467637ea736d73049c910ce39aaa383e58aa2d96b5c4232a2ad59080a660691294360c6ac49fd6807e0bf0c60942' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>,200
+[2017-10-08 20:05:00] INFO: [2017-10-08 20:05:00]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>"111111"}
+[2017-10-08 20:05:01] INFO: [2017-10-08 20:05:01]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 20:05:01] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://testlink.cdsankuai.com/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://testlink.cdsankuai.com/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://testlink.cdsankuai.com/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://testlink.cdsankuai.com/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_747963820' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='8969a5b0a618bb9ef3f10fd5361414bb8cb05329040b93dda5bef7e2d1804b842756df633f15a598e66cc75f9445d188ff3a9cb3da47f98d64d4f224d0e5f1bb' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>,200
+[2017-10-08 20:05:01] INFO: [2017-10-08 20:05:01]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"nouser", "tl_password"=>"111111"}
+[2017-10-08 20:05:01] INFO: [2017-10-08 20:05:01]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 20:05:01] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://testlink.cdsankuai.com/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://testlink.cdsankuai.com/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://testlink.cdsankuai.com/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://testlink.cdsankuai.com/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_1252775290' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='97fc95ebd88bce0af9c274e158ab607108281616ad32d4ac1dbc58c85f0fd909295f77c1e577fd87a9bf7025cb9402465e9affe5b9938d1b8471fa5664f6897e' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>,200
+[2017-10-08 20:05:01] INFO: [2017-10-08 20:05:01]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>"123456"}
+[2017-10-08 20:05:01] INFO: [2017-10-08 20:05:01]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 20:05:01] INFO: response -->> <html><head></head><body><script type='text/javascript'>location.href='http://testlink.cdsankuai.com/index.php?caller=login';</script></body></html>,200
+[2017-10-08 20:05:01] INFO: ###############[API-LOGIN001 PASSED: total 6 cases]###############
+[2017-10-08 20:05:01] INFO: ###############[clear test db PASSED: total 0 cases]###############
+[2017-10-08 20:05:01] INFO: update script status: {:protocol=>{:what=>"Script", :round_id=>"1234", :data=>{:script_name=>"api_testlink_login", :state=>"done", "service"=>[{"name"=>"WebServiceFrontend", "version"=>"v1.0.16"}, {"name"=>"WebServiceBackend", "version"=>"v1.0.19"}, {"name"=>"FaceServer", "version"=>"1.0.4"}, {"name"=>"CypressSystem", "version"=>"1.4.1"}]}}}
+[2017-10-08 20:05:48] INFO: [2017-10-08 20:05:48]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>"123456"}
+[2017-10-08 20:05:48] INFO: [2017-10-08 20:05:48]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 20:05:48] INFO: [2017-10-08 20:05:48]====>http://testlink.cdsankuai.com/lib/usermanagement/userInfo.php post data: 
+{"doAction"=>"changePassword", "oldpassword"=>"123456", "newpassword"=>"123456", "newpassword_check"=>"123456"}
+[2017-10-08 20:05:49] INFO: [2017-10-08 20:05:49]====>http://testlink.cdsankuai.com/lib/usermanagement/userInfo.php post done.
+[2017-10-08 20:05:49] INFO: ###############[precondition: create category PASSED: total 0 cases]###############
+[2017-10-08 20:05:49] INFO: [2017-10-08 20:05:49]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"", "tl_password"=>""}
+[2017-10-08 20:05:49] INFO: [2017-10-08 20:05:49]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 20:05:49] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://testlink.cdsankuai.com/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://testlink.cdsankuai.com/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://testlink.cdsankuai.com/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://testlink.cdsankuai.com/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_1582191648' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='0b104bac29da103b2eee27a8adf616deb591f876bc02be567599d48e2959cc9f1c144792a05650fb50975a3b547e7aba130244babab9d720e6a04467536d07c9' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>,200
+[2017-10-08 20:05:49] INFO: [2017-10-08 20:05:49]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>""}
+[2017-10-08 20:05:49] INFO: [2017-10-08 20:05:49]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 20:05:49] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://testlink.cdsankuai.com/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://testlink.cdsankuai.com/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://testlink.cdsankuai.com/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://testlink.cdsankuai.com/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_303260713' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='5e477220f96fea74238fd242c93a31b5ed891bc8e0a393d36f07ea6bdbd961f2c83b44db8b69923dbec4a396102288da717f173c091df2699f79da4db049075c' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>,200
+[2017-10-08 20:05:49] INFO: [2017-10-08 20:05:49]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"", "tl_password"=>"123456"}
+[2017-10-08 20:05:49] INFO: [2017-10-08 20:05:49]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 20:05:49] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://testlink.cdsankuai.com/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://testlink.cdsankuai.com/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://testlink.cdsankuai.com/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://testlink.cdsankuai.com/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_1892383869' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='120241d3b6e91bad3779c7ac0485e3f561a871b65506c41aa1b42196acd0860aa4c55be3e6f63043bcc4414b70f8613c3ed6bcabe4bb23e97fee2d3d8e4c12ed' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>,200
+[2017-10-08 20:05:49] INFO: [2017-10-08 20:05:49]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>"111111"}
+[2017-10-08 20:05:50] INFO: [2017-10-08 20:05:50]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 20:05:50] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://testlink.cdsankuai.com/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://testlink.cdsankuai.com/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://testlink.cdsankuai.com/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://testlink.cdsankuai.com/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_853165140' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='5e4b259a083c79900da3d12726605b53bdfbd385ed4340ecdeb5eaa1d9fd5aa768a0021099ae4e2c65ee60293a27c6491cc24f7098a803472cf95314c3da1ee8' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>,200
+[2017-10-08 20:05:50] INFO: [2017-10-08 20:05:50]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"nouser", "tl_password"=>"111111"}
+[2017-10-08 20:05:50] INFO: [2017-10-08 20:05:50]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 20:05:50] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://testlink.cdsankuai.com/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://testlink.cdsankuai.com/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://testlink.cdsankuai.com/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://testlink.cdsankuai.com/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://testlink.cdsankuai.com/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://testlink.cdsankuai.com/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://testlink.cdsankuai.com/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_209480293' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='5a29bbe23c0c494830c1f570d386c4eac773aab01cab684ec78cdd0e6f1aabdb1ae341272e5949165f863d40f6d61482e1910780546c8dc7f28f9bda8a611147' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>,200
+[2017-10-08 20:05:50] INFO: [2017-10-08 20:05:50]====>http://testlink.cdsankuai.com/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>"123456"}
+[2017-10-08 20:05:50] INFO: [2017-10-08 20:05:50]====>http://testlink.cdsankuai.com/login.php post done.
+[2017-10-08 20:05:50] INFO: response -->> <html><head></head><body><script type='text/javascript'>location.href='http://testlink.cdsankuai.com/index.php?caller=login';</script></body></html>,200
+[2017-10-08 20:05:50] INFO: ###############[API-LOGIN001 PASSED: total 6 cases]###############
+[2017-10-08 20:05:50] INFO: ###############[clear test db PASSED: total 0 cases]###############
+[2017-10-08 20:05:50] INFO: update script status: {:protocol=>{:what=>"Script", :round_id=>"1234", :data=>{:script_name=>"api_testlink_login", :state=>"done", "service"=>[{"name"=>"WebServiceFrontend", "version"=>"v1.0.16"}, {"name"=>"WebServiceBackend", "version"=>"v1.0.19"}]}}}
+[2017-10-10 10:49:06] INFO: ######################[ERROR MESSAGE]######################
+the 1th case from DEMOWEB001_testlink login web sample testing:
+test_data: {"request":{"username":"","password":""}}
+expected_data: {"successs":false,"message":"用户名或密码均为空"}
+
+Error forwarding the new session Empty pool of VM for setup Capabilities [{rotatable=false, nativeEvents=false, chrome.switches=[--start-maximized, --ignore-certificate-errors, --disable-popup-blocking, --disable-translate, -disable-extensions], download.prompt_for_download=false, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@5d521d5, browserName=chrome, takesScreenshot=false, javascriptEnabled=true, version=, platform=ANY, cssSelectorsEnabled=true, download.default_directory=/Users/frankwu/eclipse-workspace/erp-mcashier-autoci/rtest-framework/common/utilities/../../output/Downloads}] (org.openqa.grid.common.exception.GridException)
+113----->  # Couldn't get snippet for [remote server] org.openqa.grid.web.servlet.handler.RequestHandler(RequestHandler.java)
+[remote server] org.openqa.grid.web.servlet.handler.RequestHandler(RequestHandler.java):115:in `process'
+[remote server] org.openqa.grid.web.servlet.DriverServlet(DriverServlet.java):83:in `process'
+[remote server] org.openqa.grid.web.servlet.DriverServlet(DriverServlet.java):67:in `doPost'
+[remote server] javax.servlet.http.HttpServlet(HttpServlet.java):707:in `service'
+[remote server] javax.servlet.http.HttpServlet(HttpServlet.java):790:in `service'
+[remote server] org.seleniumhq.jetty9.servlet.ServletHolder(ServletHolder.java):808:in `handle'
+[remote server] org.seleniumhq.jetty9.servlet.ServletHandler(ServletHandler.java):587:in `doHandle'
+[remote server] org.seleniumhq.jetty9.server.session.SessionHandler(SessionHandler.java):221:in `doHandle'
+[remote server] org.seleniumhq.jetty9.server.handler.ContextHandler(ContextHandler.java):1127:in `doHandle'
+[remote server] org.seleniumhq.jetty9.servlet.ServletHandler(ServletHandler.java):515:in `doScope'
+[remote server] org.seleniumhq.jetty9.server.session.SessionHandler(SessionHandler.java):185:in `doScope'
+[remote server] org.seleniumhq.jetty9.server.handler.ContextHandler(ContextHandler.java):1061:in `doScope'
+[remote server] org.seleniumhq.jetty9.server.handler.ScopedHandler(ScopedHandler.java):141:in `handle'
+[remote server] org.seleniumhq.jetty9.server.handler.HandlerWrapper(HandlerWrapper.java):97:in `handle'
+[remote server] org.seleniumhq.jetty9.server.Server(Server.java):499:in `handle'
+[remote server] org.seleniumhq.jetty9.server.HttpChannel(HttpChannel.java):310:in `handle'
+[remote server] org.seleniumhq.jetty9.server.HttpConnection(HttpConnection.java):257:in `onFillable'
+[remote server] org.seleniumhq.jetty9.io.AbstractConnection$2(AbstractConnection.java):540:in `run'
+[remote server] org.seleniumhq.jetty9.util.thread.QueuedThreadPool(QueuedThreadPool.java):635:in `runJob'
+[remote server] org.seleniumhq.jetty9.util.thread.QueuedThreadPool$3(QueuedThreadPool.java):555:in `run'
+[remote server] java.lang.Thread(Thread.java):745:in `run'
+/Users/frankwu/eclipse-workspace/erp-mcashier-autoci/rtest-framework/common/utilities/web_driver.rb:29:in `start_remote_browser'
+/Users/frankwu/eclipse-workspace/erp-mcashier-autoci/rtest-framework/common/utilities/web_driver.rb:61:in `start_browser'
+/Users/frankwu/eclipse-workspace/erp-mcashier-autoci/rtest-framework/common/utilities/web_driver.rb:77:in `restart_browser'
+/Users/frankwu/eclipse-workspace/erp-mcashier-autoci/rtest-framework/common/utilities/web_driver.rb:200:in `restart_non_blank_browser'
+/Users/frankwu/eclipse-workspace/erp-mcashier-autoci/rtest-framework/testflow/web/testlink_sample.rb:5:in `login_to_home'
+./sample/web_testlink_login/action1_web_login.rb:8:in `block (2 levels) in action_1'
+./sample/web_testlink_login/action1_web_login.rb:6:in `each'
+./sample/web_testlink_login/action1_web_login.rb:6:in `block in action_1'
+[2017-10-10 10:49:06] INFO: ###############[DEMOWEB001 FAILED: the 1th case]###############
+[2017-10-10 10:49:06] INFO: ###############[clear and restore PASSED: total 0 cases]###############
+[2017-10-10 10:49:06] INFO: update script status: {:protocol=>{:what=>"Script", :round_id=>"1234", :data=>{:script_name=>"web_testlink_login", :state=>"done", "service"=>[{"name"=>"WebServiceFrontend", "version"=>"v1.0.16"}, {"name"=>"WebServiceBackend", "version"=>"v1.0.19"}]}}}
+[2017-10-10 11:23:41] INFO: Execute - Navigate to URL http://testlink.cdsankuai.com - success.
+[2017-10-10 11:24:41] INFO: Execute - Navigate to URL http://testlink.cdsankuai.com - warnning. get Timeout::Error 
+[2017-10-10 11:28:16] INFO: Execute - Navigate to URL http://testlink.cdsankuai.com - success.
+[2017-10-10 11:31:20] INFO: Execute - Navigate to URL http://10.4.237.142 - success.
+[2017-10-10 11:32:20] INFO: Execute - Navigate to URL http://10.4.237.142 - warnning. get Timeout::Error 
+[2017-10-10 11:34:03] INFO: Execute - Navigate to URL http://10.4.237.142 - success.
+[2017-10-10 11:35:54] INFO: ######################[ERROR MESSAGE]######################
+the 1th case from DEMOWEB001_testlink login web sample testing:
+test_data: {"request":{"username":"","password":""}}
+expected_data: {"successs":false,"message":"用户名或密码均为空"}
+
+Net::ReadTimeout
+156----->          return @rbuf &lt;&lt; rv
+157----->        when :wait_readable
+158----->          @io.to_io.wait_readable(@read_timeout) or raise Net::ReadTimeout
+159----->          # continue looping
+160----->        when :wait_writable
+/Users/frankwu/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/net/protocol.rb:158:in `rbuf_fill'
+/Users/frankwu/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/net/protocol.rb:136:in `readuntil'
+/Users/frankwu/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/net/protocol.rb:146:in `readline'
+/Users/frankwu/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/net/http/response.rb:40:in `read_status_line'
+/Users/frankwu/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/net/http/response.rb:29:in `read_new'
+/Users/frankwu/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/net/http.rb:1437:in `block in transport_request'
+/Users/frankwu/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/net/http.rb:1434:in `catch'
+/Users/frankwu/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/net/http.rb:1434:in `transport_request'
+/Users/frankwu/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/net/http.rb:1407:in `request'
+/Users/frankwu/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/net/http.rb:1400:in `block in request'
+/Users/frankwu/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/Users/frankwu/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/net/http.rb:1398:in `request'
+/Users/frankwu/eclipse-workspace/erp-mcashier-autoci/rtest-framework/common/utilities/web_driver.rb:29:in `start_remote_browser'
+/Users/frankwu/eclipse-workspace/erp-mcashier-autoci/rtest-framework/common/utilities/web_driver.rb:61:in `start_browser'
+/Users/frankwu/eclipse-workspace/erp-mcashier-autoci/rtest-framework/common/utilities/web_driver.rb:77:in `restart_browser'
+/Users/frankwu/eclipse-workspace/erp-mcashier-autoci/rtest-framework/common/utilities/web_driver.rb:200:in `restart_non_blank_browser'
+/Users/frankwu/eclipse-workspace/erp-mcashier-autoci/rtest-framework/testflow/web/testlink_sample.rb:5:in `login_to_home'
+./sample/web_testlink_login/action1_web_login.rb:8:in `block (2 levels) in action_1'
+./sample/web_testlink_login/action1_web_login.rb:6:in `each'
+./sample/web_testlink_login/action1_web_login.rb:6:in `block in action_1'
+[2017-10-10 11:35:54] INFO: ###############[DEMOWEB001 FAILED: the 1th case]###############
+[2017-10-10 11:35:54] INFO: update script status: {:protocol=>{:what=>"Script", :round_id=>"1234", :data=>{:script_name=>"web_testlink_login", :state=>"done", "service"=>[{"name"=>"WebServiceFrontend", "version"=>"v1.0.16"}, {"name"=>"WebServiceBackend", "version"=>"v1.0.19"}]}}}
+[2017-10-11 16:39:10] INFO: Execute - Navigate to URL http://10.4.237.142 - success.
+[2017-10-11 16:39:11] INFO: TestlinkLogin::LoginAccountInput.wait_element_clickable passed - loop count: 0
+[2017-10-11 16:39:12] INFO: Execute - clear text of TestlinkLogin::LoginAccountInput - success.
+[2017-10-11 16:39:12] INFO: Execute - input text to TestlinkLogin::LoginAccountInput - success. [] is entered
+[2017-10-11 16:39:12] INFO: Execute - clear text of TestlinkLogin::PasswordInput - success.
+[2017-10-11 16:39:12] INFO: Execute - input text to TestlinkLogin::PasswordInput - success. [] is entered
+[2017-10-11 16:39:12] INFO: Execute - click TestlinkLogin::LoginButton - success.
+[2017-10-11 16:39:15] INFO: Assert  - check TestlinkLogin::LoginAccountInput should exist - success.
+[2017-10-11 16:39:16] INFO: Execute - Navigate to URL http://10.4.237.142 - success.
+[2017-10-11 16:39:17] INFO: TestlinkLogin::LoginAccountInput.wait_element_clickable passed - loop count: 0
+[2017-10-11 16:39:17] INFO: Execute - clear text of TestlinkLogin::LoginAccountInput - success.
+[2017-10-11 16:39:18] INFO: Execute - input text to TestlinkLogin::LoginAccountInput - success. [testlink] is entered
+[2017-10-11 16:39:18] INFO: Execute - clear text of TestlinkLogin::PasswordInput - success.
+[2017-10-11 16:39:18] INFO: Execute - input text to TestlinkLogin::PasswordInput - success. [] is entered
+[2017-10-11 16:39:18] INFO: Execute - click TestlinkLogin::LoginButton - success.
+[2017-10-11 16:39:21] INFO: Assert  - check TestlinkLogin::LoginAccountInput should exist - success.
+[2017-10-11 16:39:21] INFO: Execute - Navigate to URL http://10.4.237.142 - success.
+[2017-10-11 16:39:24] INFO: TestlinkLogin::LoginAccountInput.wait_element_clickable passed - loop count: 0
+[2017-10-11 16:39:24] INFO: Execute - clear text of TestlinkLogin::LoginAccountInput - success.
+[2017-10-11 16:39:24] INFO: Execute - input text to TestlinkLogin::LoginAccountInput - success. [] is entered
+[2017-10-11 16:39:24] INFO: Execute - clear text of TestlinkLogin::PasswordInput - success.
+[2017-10-11 16:39:24] INFO: Execute - input text to TestlinkLogin::PasswordInput - success. [123456] is entered
+[2017-10-11 16:39:24] INFO: Execute - click TestlinkLogin::LoginButton - success.
+[2017-10-11 16:39:27] INFO: Assert  - check TestlinkLogin::LoginAccountInput should exist - success.
+[2017-10-11 16:39:28] INFO: Execute - Navigate to URL http://10.4.237.142 - success.
+[2017-10-11 16:39:29] INFO: TestlinkLogin::LoginAccountInput.wait_element_clickable passed - loop count: 0
+[2017-10-11 16:39:29] INFO: Execute - clear text of TestlinkLogin::LoginAccountInput - success.
+[2017-10-11 16:39:29] INFO: Execute - input text to TestlinkLogin::LoginAccountInput - success. [testlink] is entered
+[2017-10-11 16:39:30] INFO: Execute - clear text of TestlinkLogin::PasswordInput - success.
+[2017-10-11 16:39:30] INFO: Execute - input text to TestlinkLogin::PasswordInput - success. [111111] is entered
+[2017-10-11 16:39:30] INFO: Execute - click TestlinkLogin::LoginButton - success.
+[2017-10-11 16:39:33] INFO: Assert  - check TestlinkLogin::LoginAccountInput should exist - success.
+[2017-10-11 16:39:33] INFO: Execute - Navigate to URL http://10.4.237.142 - success.
+[2017-10-11 16:39:35] INFO: TestlinkLogin::LoginAccountInput.wait_element_clickable passed - loop count: 0
+[2017-10-11 16:39:35] INFO: Execute - clear text of TestlinkLogin::LoginAccountInput - success.
+[2017-10-11 16:39:35] INFO: Execute - input text to TestlinkLogin::LoginAccountInput - success. [nouser] is entered
+[2017-10-11 16:39:35] INFO: Execute - clear text of TestlinkLogin::PasswordInput - success.
+[2017-10-11 16:39:35] INFO: Execute - input text to TestlinkLogin::PasswordInput - success. [111111] is entered
+[2017-10-11 16:39:35] INFO: Execute - click TestlinkLogin::LoginButton - success.
+[2017-10-11 16:39:39] INFO: Assert  - check TestlinkLogin::LoginAccountInput should exist - success.
+[2017-10-11 16:39:39] INFO: Execute - Navigate to URL http://10.4.237.142 - success.
+[2017-10-11 16:39:43] INFO: TestlinkLogin::LoginAccountInput.wait_element_clickable passed - loop count: 0
+[2017-10-11 16:39:43] INFO: Execute - clear text of TestlinkLogin::LoginAccountInput - success.
+[2017-10-11 16:39:43] INFO: Execute - input text to TestlinkLogin::LoginAccountInput - success. [testlink] is entered
+[2017-10-11 16:39:43] INFO: Execute - clear text of TestlinkLogin::PasswordInput - success.
+[2017-10-11 16:39:43] INFO: Execute - input text to TestlinkLogin::PasswordInput - success. [123456] is entered
+[2017-10-11 16:39:43] INFO: Execute - click TestlinkLogin::LoginButton - success.
+[2017-10-11 16:39:47] INFO: Execute - wait TestlinkHome::AccountNameText to present - success. it shows in 30 seconds
+[2017-10-11 16:39:47] INFO: Execute - get text of TestlinkHome::AccountNameText - success. get text [testlink [guest]]
+[2017-10-11 16:39:47] INFO: Assert  - TestlinkHome::AccountNameText should include text testlink - success.
+[2017-10-11 16:39:47] INFO: ###############[DEMOWEB001 PASSED: total 6 cases]###############
+[2017-10-11 16:39:47] INFO: ###############[clear and restore PASSED: total 0 cases]###############
+[2017-10-11 16:39:47] INFO: update script status: {:protocol=>{:what=>"Script", :round_id=>"1234", :data=>{:script_name=>"web_testlink_login", :state=>"done", "service"=>[{"name"=>"WebServiceFrontend", "version"=>"v1.0.16"}, {"name"=>"WebServiceBackend", "version"=>"v1.0.19"}]}}}
+[2017-10-11 16:40:04] INFO: [2017-10-11 16:40:04]====>http://10.4.237.142/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>"123456"}
+[2017-10-11 16:40:04] INFO: [2017-10-11 16:40:04]====>http://10.4.237.142/login.php post done.
+[2017-10-11 16:40:04] INFO: [2017-10-11 16:40:04]====>http://10.4.237.142/lib/usermanagement/userInfo.php post data: 
+{"doAction"=>"changePassword", "oldpassword"=>"123456", "newpassword"=>"123456", "newpassword_check"=>"123456"}
+[2017-10-11 16:40:04] INFO: [2017-10-11 16:40:04]====>http://10.4.237.142/lib/usermanagement/userInfo.php post done.
+[2017-10-11 16:40:04] INFO: ###############[precondition: create category PASSED: total 0 cases]###############
+[2017-10-11 16:40:04] INFO: [2017-10-11 16:40:04]====>http://10.4.237.142/login.php post data: 
+{"tl_login"=>"", "tl_password"=>""}
+[2017-10-11 16:40:05] INFO: [2017-10-11 16:40:05]====>http://10.4.237.142/login.php post done.
+[2017-10-11 16:40:05] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://10.4.237.142/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://10.4.237.142/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://10.4.237.142/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://10.4.237.142/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://10.4.237.142/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://10.4.237.142/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://10.4.237.142/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://10.4.237.142/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://10.4.237.142/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://10.4.237.142/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://10.4.237.142/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://10.4.237.142/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_1019192266' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='fa3fe5e6d8b81e682feeca54ae24659170889ff69722eadb6b555bab7bb4b0bc18dd0103c048d0b4da9c246a771b1bb5570b47fe1d656b25dc3ac2b1f56c93f8' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>,200
+[2017-10-11 16:40:05] INFO: [2017-10-11 16:40:05]====>http://10.4.237.142/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>""}
+[2017-10-11 16:40:06] INFO: [2017-10-11 16:40:06]====>http://10.4.237.142/login.php post done.
+[2017-10-11 16:40:06] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://10.4.237.142/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://10.4.237.142/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://10.4.237.142/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://10.4.237.142/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://10.4.237.142/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://10.4.237.142/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://10.4.237.142/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://10.4.237.142/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://10.4.237.142/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://10.4.237.142/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://10.4.237.142/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://10.4.237.142/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_358227640' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='0bb3345bee440fd4d96eaa4a548104c0ca44a7de1e3c1fe616146d52f4a4dfe730e4562b61f70af2229baa635d4e1029b5c017c04a424b6778f28ffc93924b49' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>,200
+[2017-10-11 16:40:06] INFO: [2017-10-11 16:40:06]====>http://10.4.237.142/login.php post data: 
+{"tl_login"=>"", "tl_password"=>"123456"}
+[2017-10-11 16:40:06] INFO: [2017-10-11 16:40:06]====>http://10.4.237.142/login.php post done.
+[2017-10-11 16:40:06] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://10.4.237.142/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://10.4.237.142/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://10.4.237.142/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://10.4.237.142/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://10.4.237.142/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://10.4.237.142/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://10.4.237.142/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://10.4.237.142/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://10.4.237.142/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://10.4.237.142/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://10.4.237.142/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://10.4.237.142/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_249769473' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='39a7973dfd2cd3a29482a85d619545c2b7aa38963561f95d2af877690f5051627feecaa115e3c7adc6d9bc745bea43dde8207dc16a3495e3950b2c1adf1e68d4' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>,200
+[2017-10-11 16:40:06] INFO: [2017-10-11 16:40:06]====>http://10.4.237.142/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>"111111"}
+[2017-10-11 16:40:06] INFO: [2017-10-11 16:40:06]====>http://10.4.237.142/login.php post done.
+[2017-10-11 16:40:06] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://10.4.237.142/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://10.4.237.142/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://10.4.237.142/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://10.4.237.142/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://10.4.237.142/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://10.4.237.142/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://10.4.237.142/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://10.4.237.142/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://10.4.237.142/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://10.4.237.142/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://10.4.237.142/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://10.4.237.142/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_818177368' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='c088495773261661c0141b7d69be9c75a7109b1d49c8b4a966b766f9ae9e70d36fd87a05c064fe41f33bb4f21953a8586bc35461d46354b7e304dfcb834b8f93' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>,200
+[2017-10-11 16:40:06] INFO: [2017-10-11 16:40:06]====>http://10.4.237.142/login.php post data: 
+{"tl_login"=>"nouser", "tl_password"=>"111111"}
+[2017-10-11 16:40:07] INFO: [2017-10-11 16:40:07]====>http://10.4.237.142/login.php post done.
+[2017-10-11 16:40:07] INFO: response -->> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="author" content="Martin Havlat" />
+	<meta name="copyright" content="GNU" />
+	<meta name="robots" content="NOFOLLOW" />
+	<base href="http://10.4.237.142/"/>
+	<title>TestLink</title>
+	<link rel="icon" href="http://10.4.237.142/gui/themes/default/images/favicon.ico" type="image/x-icon" />
+	
+ 
+	<style media="all" type="text/css">@import "http://10.4.237.142/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "http://10.4.237.142/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="http://10.4.237.142/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="http://10.4.237.142/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="http://10.4.237.142/gui/javascript/sorttable.js" 
+		language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="http://10.4.237.142/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="http://10.4.237.142/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="http://10.4.237.142/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="http://10.4.237.142/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'http://10.4.237.142/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/tl-logo-transparent-25.png" />
+   <br />1.9.14 (Padawan)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type='hidden' name='CSRFName' id='CSRFName' value='CSRFGuard_1899031810' />
+                       <input type='hidden' name='CSRFToken' id='CSRFToken' value='0f5da06e6cc4b173893b1be178a895e4308fb55a466f2b851e83f2f89da37c51b58d92137c3eb2edb0457f894e7fe66bd1a51769421fc5af8d9da2f1994da3b5' />
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Try again! Wrong login name or password!</div>
+      <input type="hidden" name="reqURI" value=""/>
+      <input type="hidden" name="destination" value=""/>
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br />
+      <input type="text" name="tl_login" id="login" size="50" 
+             style="height: 18px;" maxlength="30" 
+              required />
+    </p>
+      <p class="label">Password<br />
+      <input type="password" name="tl_password" style="height: 18px;"
+             size="50" maxlength="40" 
+                          required />
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in" />
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="lostPassword.php">Lost Password?</a>
+  </p>
+    
+  <p>
+TestLink project <a href="http://testlink.sourceforge.net/">Home</a><br />
+TestLink is licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+</body>
+</html>,200
+[2017-10-11 16:40:07] INFO: [2017-10-11 16:40:07]====>http://10.4.237.142/login.php post data: 
+{"tl_login"=>"testlink", "tl_password"=>"123456"}
+[2017-10-11 16:40:07] INFO: [2017-10-11 16:40:07]====>http://10.4.237.142/login.php post done.
+[2017-10-11 16:40:07] INFO: response -->> <html><head></head><body><script type='text/javascript'>location.href='http://10.4.237.142/index.php?caller=login';</script></body></html>,200
+[2017-10-11 16:40:07] INFO: ###############[DEMOAPI001 PASSED: total 6 cases]###############
+[2017-10-11 16:40:07] INFO: ###############[clear test db PASSED: total 0 cases]###############
+[2017-10-11 16:40:07] INFO: update script status: {:protocol=>{:what=>"Script", :round_id=>"1234", :data=>{:script_name=>"api_testlink_login", :state=>"done", "service"=>[{"name"=>"WebServiceFrontend", "version"=>"v1.0.16"}, {"name"=>"WebServiceBackend", "version"=>"v1.0.19"}]}}}

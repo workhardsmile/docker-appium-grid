@@ -1,0 +1,126 @@
+QA:
+  mysql:
+    adapter: mysql2
+    host: 192.168.28.218
+    database: ironhide_test
+    username: ironhide
+    password: ironhide_staging123!
+    encoding: utf8
+    reconnect: false
+    pool: 5
+  redis:
+    host: 192.168.28.218
+    port: 6379
+    db: 0
+    password: ironhide_CD@261o4
+  server:
+    url: http://192.168.28.218
+    host: 192.168.28.218
+  user:
+    mobile: 18980709020
+    userid: 23
+    mobile_unregister: 13540108163
+    promobile: 15800000002
+    prouserid: 7
+    mobile_other: 13540108162
+    useridother: 222
+    password: 123456
+    admin_name: smart
+    adminuserid: 6
+    admin_password: 123456
+    mobile_noapply: 13557571240
+    userid_noapply: 209
+    mobile_verify: 13505757124
+    userid_verify: 213
+    mobile_forbid: 13612345678
+    forbiduserid: 200
+    mobile_verify1: 13505757125
+    userid_verify1: 201
+    mobile_verify2: 13505757126
+    userid_verify2: 202
+    mobile_info: 13505757127
+    userid_info: 203
+    mobile_step1: 13505757128
+    userid_step1: 204
+    mobile_info_admin: 13505757129
+    userid_info_admin: 205
+    mobile_other2: 13505757130
+    useridother2: 206
+  testdata:
+    topic_id: 1
+    topic_id_data: 14
+    feature_id: 1733
+    feature_id_pre: 1734
+    feature_id_off: 1601
+    feature_id_online: 1753
+    feature_id_other: 1602
+    feature_id_saveanchor: 1757
+    feature_id_nodata: 1758
+    featureNull_id: 1759
+    feature_saveanchor_data: 1338:19=1,20=1
+    feature_id_article: 695
+    link_id: 40
+    link_id_other: 1
+    answersCommentId_off: 3593
+    feedback_id: 100
+STG:
+  mysql:
+    adapter: mysql2
+    host: 112.126.93.120
+    database: ironhide_staging
+    username: ironhide
+    password: Ironhide_staging@26o4
+    encoding: utf8
+    reconnect: false
+    pool: 5
+  redis:
+    host: 112.126.93.120
+    port: 6379
+    db: 0
+    password: ironhide_CD@261o4
+  server:
+    url: http://112.126.93.120
+    host: 112.126.93.120
+  user:
+    mobile: 18980709020
+    userid: 15
+    mobile_unregister: 13540108163
+    promobile: 15288888888
+    prouserid: 100000
+    mobile_other: 13730731513
+    useridother: 17
+    password: 123456
+    admin_name: ironhide
+    adminuserid: 12
+    admin_password: 123456
+    mobile_noapply: 13557571240
+    userid_noapply: 100108
+    mobile_verify: 13505757124
+    userid_verify: 100109
+    mobile_forbid: 13612345678
+    forbiduserid: 45
+    mobile_verify1: 13505757125
+    userid_verify1: 100030
+    mobile_verify2: 13505757126
+    userid_verify2: 100031
+    mobile_info: 13505757127
+    userid_info: 100032
+    mobile_step1: 13505757128
+    userid_step1: 100033
+    mobile_info_admin: 13505757129
+    userid_info_admin: 100034
+  testdata:
+    topic_id: 1
+    feature_id: 23
+    feature_id_pre: 35
+    feature_id_off: 5
+    feature_id_online: 11
+    feature_id_other: 1
+    feature_id_saveanchor: 33
+    feature_id_nodata: 32
+    featureNull_id: 22
+    feature_saveanchor_data: 38:50=1,49=1
+    link_id: 1
+    link_id_other: 2
+    feedback_id: 35
+

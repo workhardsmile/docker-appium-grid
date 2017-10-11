@@ -1,0 +1,4 @@
+QA:
+  admin_user:
+    account: 'will'
+    password: '111111'

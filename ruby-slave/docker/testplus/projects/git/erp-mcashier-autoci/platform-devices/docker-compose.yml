@@ -1,35 +1,42 @@
-# Note: It requires docker-compose 1.6.0+
-#
-# Usage: docker-compose up -d
+## Note: It requires docker-compose 1.6.0+
+##
+## Usage: docker-compose up -d
 #version: '2'
 #services:
-# Selenium hub
-selenium_hub:
-  image: hub.c.163.com/workhardsmile/selenium:selenium-hub
+#Selenium hub
+hub:
+  container_name: selenium-hub
+  image: 10.4.237.142:5001/selenium-hub
   ports:
     - 4444:4444
   labels:
     aliyun.routing.port_4444: http://selenium/
 firefox:
-  image: hub.c.163.com/workhardsmile/selenium:node-firefox
+  container_name: selenium-node-firefox
+  image: 10.4.237.142:5001/selenium-node-firefox
   links:
-    - selenium_hub
+    - hub
   labels:
     aliyun.scale: "3"
+  ports:
+    - 5901:5900
 chrome:
-  image: hub.c.163.com/workhardsmile/selenium:node-chrome
+  container_name: selenium-node-chrome
+  image: 10.4.237.142:5001/selenium-node-chrome
   links:
-    - selenium_hub
+    - hub
   labels:
     aliyun.scale: "3"
-# Appium Docker Android
+  ports:
+    - 5902:5900
+#    # Appium Docker Android
 #    appium_devices:
-#      image: hub.c.163.com/workhardsmile/selenium:appium-grid
+#      image: 10.4.237.142:5001/appium:grid
 #      ports:
 #        - 4723:4723
-#      depends_on:
-#        - selenium_hub
-#      network_mode: "service:selenium_hub"
+#      links:
+#        - selenium-hub
+#      #network_mode: "service:selenium-hub"
 #      privileged: true
 #      volumes:
 #        - /dev/bus/usb:/dev/bus/usb

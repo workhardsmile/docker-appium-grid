@@ -1,0 +1,91 @@
+version: "2.0"
+
+services:
+  applications:
+      container_name: applications
+      image: hub.c.163.com/workhardsmile/citest:data
+      volumes:
+        - ../data/nginx/www:/var/www
+#  mongo:
+#      container_name: mongo
+#      image: hub.c.163.com/workhardsmile/citest:mongo
+#      ports:
+#        - "27018:27017"
+#      volumes:
+#        - ../data/mongo:/data/db
+  jenkins:
+      #image: hub.c.163.com/workhardsmile/citest:jenkins
+      image: hub.c.163.com/library/jenkins:2.46.2
+      container_name: jenkins
+      hostname: jenkins
+      ports:
+        - "8080:8080"
+        - "5000:5000"
+      volumes:
+        - ../data/jenkins:/var/jenkins_home
+      environment:
+        - JAVA_VM_PARAMETERS=-Xmx1024m -Xms512m
+        - JENKINS_PARAMETERS=
+        - JENKINS_MASTER_EXECUTORS=0
+        - JENKINS_SLAVEPORT=50000
+        - JENKINS_PLUGINS=
+        - JENKINS_ADMIN_USER=admin
+        - JENKINS_ADMIN_PASSWORD=test
+        - JENKINS_KEYSTORE_PASSWORD=
+        - JENKINS_LOG_FILE=
+        - JENKINS_USER_NAMES=slave
+        - JENKINS_USER_PERMISSIONS=jenkins.model.Jenkins.READ:hudson.model.Computer.CONNECT:hudson.model.Computer.DISCONNECT:hudson.model.Computer.CREATE
+        - JENKINS_USER_PASSWORDS=slave
+  mysql:
+      container_name: mysql
+      image: hub.c.163.com/workhardsmile/citest:mysql
+      restart: always
+      environment:
+        MYSQL_ROOT_PASSWORD: 12345678
+      ports:
+        - "3306:3306"
+      volumes:
+        - ../data/mysql:/data/mysql
+  redis:
+      container_name: redis
+      image: hub.c.163.com/workhardsmile/citest:redis
+      restart: always
+      ports:
+        - "6380:6379"
+      volumes:
+        - ../data/redis:/data
+  passenger-nginx:
+      container_name: passenger-nginx
+      image: hub.c.163.com/workhardsmile/citest:passenger-nginx
+      volumes_from:
+        - applications
+      volumes:
+        - ../data/nginx/conf:/var/nginx/conf
+        - ../data/nginx/log:/var/nginx/log
+      ports:
+        - "80:80"
+        - "443:443"
+        - "8001:8001"
+        - "8002:8002"
+        - "8003:8003"
+        - "8004:8004"
+        - "8000:8000"
+      links:
+        - "mysql"
+        - "redis"
+        - "php-fpm"
+  php-fpm:
+      container_name: php-fpm
+      image: hub.c.163.com/workhardsmile/citest:php-fpm
+      volumes_from:
+        - applications
+      volumes:
+        - ../data/php-fpm/log:/data/php-fpm/log
+      links:
+        - "mysql"
+        - "redis"
+        #- "mongo"
+networks:
+  default:
+    external:
+      name: testplus02

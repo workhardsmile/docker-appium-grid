@@ -1,0 +1,52 @@
+iphone: 
+  platformName: 'iOS'
+  browserName:  'Safari'
+  platformVersion: '8.3'
+  deviceName: 'iPhone 6'
+  newCommandTimeout: 1200
+iphone_plus:
+  platformName: 'iOS'
+  browserName:  'Safari'
+  platformVersion: '8.3'
+  deviceName: 'iPhone 6 Plus'
+  newCommandTimeout: 1200
+ipad:
+  platformName: 'iOS'
+  browserName:  'Safari'
+  platformVersion: '8.3'
+  deviceName: 'iPad Air'
+  newCommandTimeout: 1200
+android:
+  platformName: "Android"
+  browserName: 'Chrome'
+  platformVersion: '5.0'
+  deviceName: 'Android Emulator'
+  newCommandTimeout: 1200
+ios_reality:
+  caps:
+    appium-version: '1.5.3'
+    platformName: 'iOS'
+    app:  '/Users/frankwu/testapp/Ironhide.ipa'
+    platformVersion: '9.3'
+    deviceName: 'IstuaryIphone'
+    udid: '9e293e059385cb6fc368346b5778fdce402bb944'
+    newCommandTimeout: 60
+  appium_lib:
+    server_url: 'http://127.0.0.1:4723/wd/hub/'
+    port: 4723
+#android_reality:
+android_simulator:
+  caps:
+    appium-version: '1.5.3'
+    platformName: 'Android'
+    platformVersion: '4.4'
+    deviceName: 'Nexus4API19'
+    udid: '810SBNNXJRRU'
+    app: '/Users/frankwu/testapp/IronHideRelease1.1.1.08.apk'
+    appPackage: 'com.istuary.ironhide'
+    noReset: false
+    newCommandTimeout: 0
+  appium_lib:
+    server_url: 'http://127.0.0.1:4733/wd/hub/'
+    port: 4733
+    

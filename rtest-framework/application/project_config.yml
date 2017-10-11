@@ -1,0 +1,7 @@
+dfr_url: 'http://www.testplus.com/projects/61/test_plans'
+demo:
+- path: 'testing/sample'
+  config_name: demo_rspec_web_api
+  marquee_name: Demo
+  tl_project_name: Demo
+  id_prefix: DEMO

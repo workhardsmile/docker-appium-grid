@@ -1,0 +1,34 @@
+iphone:
+  user_agent: "Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4"
+  portrait:
+    width: 375
+    height: 667
+  landscape:
+    width: 667
+    height: 375  
+iphone_plus:
+  user_agent: "Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4"
+  portrait:
+    width: 414
+    height: 736
+  landscape:  
+    width: 736
+    height: 414
+ipad:
+  user_agent: "Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F69 Safari/600.1.4"
+  portrait:
+    width: 768
+    height: 1024
+  landscape:  
+    width: 1024
+    height: 768
+android:
+  user_agent: "Mozilla/5.0 (Linux; Android 4.4.4; en-us; Nexus 5 Build/JOP40D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2307.2 Mobile Safari/537.36"
+  portrait:
+    width: 360
+    height: 640
+  landscape:  
+    width: 640
+    height: 360
+    
+  

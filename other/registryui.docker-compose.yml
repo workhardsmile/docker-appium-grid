@@ -1,0 +1,10 @@
+# docker-registry-frontend/docker-compose.yml
+docker-registry-frontend:
+  image: hub.c.163.com/seandou/docker-registry-frontend:latest
+  container_name: docker-registry-frontend
+  restart: always
+  ports:
+    - 8088:80
+  environment:
+    - ENV_DOCKER_REGISTRY_HOST=10.4.237.142
+    - ENV_DOCKER_REGISTRY_PORT=5001
